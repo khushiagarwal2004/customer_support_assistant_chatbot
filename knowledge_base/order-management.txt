@@ -1,0 +1,191 @@
+
+ORDER MANAGEMENT
+================
+
+PLACING AN ORDER
+  Add items to cart
+  Click Checkout
+  Enter or select delivery address
+  Select payment method
+  Review order summary
+  Click Place Order
+  Order confirmation email sent within 5 minutes
+  SMS confirmation sent to registered mobile number
+  Order ID format: ORD-YYYYMMDD-XXXXXX
+  Example order ID: ORD-20241215-884521
+  Guest checkout available — no account required
+  Guest orders tracked via email link only
+
+ORDER STATUS EXPLANATIONS
+  Order Placed:
+    Payment confirmed, order entered into system
+    Warehouse notified to begin processing
+
+  Processing:
+    Warehouse team picking and packing your items
+    Cannot be cancelled once processing begins
+
+  Ready to Ship:
+    Order packed and awaiting carrier pickup
+    Tracking ID assigned but not yet active
+
+  Shipped:
+    Package handed to carrier
+    Tracking ID active — use it to track delivery
+    Email and SMS with tracking link sent
+
+  Out for Delivery:
+    Package with local delivery agent today
+    Delivery expected by 8 PM
+    You may receive a call from delivery agent
+
+  Delivered:
+    Package marked as delivered by carrier
+    Photo proof of delivery saved
+    If not received — report within 48 hours
+
+  Return Initiated:
+    Return request submitted and approved
+    Awaiting pickup from your address
+
+  Return Picked Up:
+    Item collected from your address
+    Quality check in progress at warehouse
+
+  Refund Initiated:
+    Quality check passed
+    Refund processing to original payment method
+
+  Cancelled:
+    Order cancelled successfully
+    Refund initiated for prepaid orders
+
+CANCELLATION POLICY
+
+  Before dispatch (Order Placed or Processing status):
+    Cancel from My Orders > Select Order > Cancel Order
+    No cancellation fee
+    Refund processed immediately for prepaid orders
+    COD orders cancelled at no charge
+
+  After dispatch (Shipped or Out for Delivery status):
+    Cancellation not possible once shipped
+    Option 1: Refuse delivery when it arrives
+              Prepaid: refund initiated after QC
+              COD: simply refuse — no charge
+    Option 2: Accept delivery then raise return request
+
+  Partial cancellation:
+    Cancel individual items from multi-item order
+    Only possible before dispatch of that item
+    Remaining items ship as normal
+    Partial refund for cancelled items processed immediately
+
+  Cancellation by ShopEasy:
+    We may cancel orders in these situations:
+    - Item goes out of stock after order placed
+    - Seller unable to fulfil within 3 business days
+    - Suspected fraudulent transaction
+    - Delivery not possible to your PIN code
+    Full refund issued immediately if we cancel your order
+    Rs. 50 store credit compensation given to customer
+
+ADDRESS CHANGE POLICY
+
+  Before dispatch:
+    Go to My Orders > Select Order > Edit Delivery Address
+    Change to any address in our serviceable network
+    No charge for address change before dispatch
+
+  After dispatch:
+    Contact support within 12 hours of dispatch notification
+    Carrier redirect possible in limited cases
+    Additional charge may apply for address redirect: Rs. 50 to Rs. 150
+    Not guaranteed — depends on carrier and location
+    Not possible for same day deliveries
+    Not possible if package is already out for delivery
+
+ORDER MODIFICATIONS
+  Quantity changes: Only possible before Processing status begins
+  Adding items to existing order: Not possible
+  Place a new separate order for additional items
+  Removing items: Treated as partial cancellation
+  Coupon code: Cannot be added or changed after order is placed
+  Payment method: Cannot be changed after order is placed
+
+PRE-ORDERS
+  Purchase a product before its official release date
+  Full payment collected at time of order
+  Order confirmed immediately
+  Item ships as soon as it becomes available
+  Estimated dispatch date shown on product page and order confirmation
+  Cancel pre-order anytime before dispatch — full refund
+  Price guarantee: if price drops before dispatch we refund the difference
+
+BACK-ORDERS
+  Place order for temporarily out of stock item
+  Estimated restock date shown at checkout
+  Payment collected at time of order
+  Email notification sent when item is dispatched
+  Cancel back-order anytime before dispatch — full refund
+  If item cannot be restocked within 30 days: automatic cancellation and refund
+
+GIFT ORDERS
+  Gift wrapping available at checkout: Rs. 49 per item
+  Gift message included: up to 150 characters
+  Invoice suppressed inside package for gift orders
+  Digital invoice sent to buyer email only
+  Gift receipt included in package for recipient
+  Recipient can use gift receipt for returns within standard window
+
+BULK ORDERS
+  Orders above Rs. 50,000 or 20+ units of same SKU
+  Contact: bulk@shopeasy.com
+  Special pricing available for bulk buyers
+  Dedicated account manager assigned
+  Custom delivery scheduling available
+  Payment terms: advance payment or verified credit terms
+
+BUSINESS ORDERS
+  GST invoice with your GSTIN for all business purchases
+  Add GSTIN: My Account > Business Details
+  Net 30 payment terms for verified business accounts
+  Volume discounts from 10+ units of same item
+  Dedicated B2B support team: b2b@shopeasy.com
+
+ORDER HISTORY
+  All orders accessible: My Account > Orders
+  Filter by: status, date range, category, price
+  Re-order button available for all previously purchased items
+  Download invoice from order detail page
+  Download warranty card from order detail page
+  Order history retained for 5 years
+
+MISSING ITEM IN ORDER
+  Report within 48 hours of delivery
+  Go to My Orders > Report Issue > Missing Item
+  Photo of package and received items required
+  Resolution within 24 to 48 hours:
+    Option 1: Missing item dispatched separately
+    Option 2: Refund for missing item value
+
+WRONG ITEM DELIVERED
+  Report within 48 hours of delivery
+  Go to My Orders > Report Issue > Wrong Item
+  Photo of received item and packaging required
+  Do not use the wrong item
+  Pickup scheduled within 48 hours
+  Correct item dispatched simultaneously with pickup
+
+ORDER NOT RECEIVED — SHOWS DELIVERED
+  Check with family, neighbours, building security first
+  Check door, mailbox, reception area
+  Report within 48 hours: My Orders > Report Issue > Not Received
+  We investigate with carrier
+  Resolution within 24 to 48 hours
+  Full replacement or refund guaranteed
+
+CONTACT FOR ORDER ISSUES
+  Email:   orders@shopeasy.com
+  Phone:   1800-XXX-XXXX (Monday to Saturday, 9 AM to 8 PM IST)
+  Chat:    Available 24/7 via the AI support assistant

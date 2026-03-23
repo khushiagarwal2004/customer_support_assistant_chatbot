@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopMart AI Assistant</title>
+<!-- Modern Typography: Outfit for headers, Inter for body text -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+<script>
+  // Initialize theme instantly before body loads to prevent flash
+  const savedTheme = localStorage.getItem('shopmart-theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+</script>
+
+<style>
+  :root {
+    /* DEFAULT DARK THEME (Matches Reference Exactly) */
+    --bg-main: #0b0f19;
+    --bg-sidebar: #131722;
+    --bg-surface: #1e2532;
+    --bg-surface-hover: #2a3441;
+    --bg-input: #1e2532;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --border-color: rgba(255, 255, 255, 0.05);
+
+    --brand-gradient: linear-gradient(135deg, #ff512f 0%, #dd2476 100%);
+    --brand-solid: #f97316;
+    --brand-glow: rgba(249, 115, 22, 0.15);
+
+    --msg-user: var(--bg-surface);
+    --msg-bot: transparent;
+    --shadow-main: 0 10px 30px rgba(0,0,0,0.5);
+    
+    --orb-color: rgba(249, 115, 22, 0.05);
+    
+    --bg-debug: rgba(19, 23, 34, 0.95);
+    --debug-item-border: rgba(255,255,255,0.05);
+    --debug-val-bg: rgba(0,0,0,0.3);
+    --debug-val-text: #cbd5e1;
+  }
+
+  [data-theme="light"] {
+    /* FRESH LIGHT THEME */
+    --bg-main: #f8fafc;
+    --bg-sidebar: #ffffff;
+    --bg-surface: #ffffff;
+    --bg-surface-hover: #f1f5f9;
+    --bg-input: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --border-color: rgba(0, 0, 0, 0.08);
+
+    --msg-user: #f1f5f9;
+    --msg-bot: transparent;
+    --shadow-main: 0 10px 30px rgba(0,0,0,0.05);
+    
+    --brand-glow: rgba(249, 115, 22, 0.1);
+    --orb-color: rgba(249, 115, 22, 0.03);
+
+    --bg-debug: rgba(255, 255, 255, 0.95);
+    --debug-item-border: rgba(0,0,0,0.05);
+    --debug-val-bg: rgba(0,0,0,0.04);
+    --debug-val-text: #334155;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    background: var(--bg-main);
+    height: 100vh;
+    overflow: hidden;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  /* Fullscreen App Layout */
+  .app-layout {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    animation: softEntrance 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  
+  @keyframes softEntrance {
+    from { opacity: 0; transform: scale(0.98) translateY(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 280px;
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    transition: background-color 0.4s ease, border-color 0.4s ease;
+    z-index: 20;
+  }
+
+  /* Brand Styling */
+  .sidebar-header { margin-bottom: 40px; }
+  
+  .brand-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--brand-solid);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 12px;
+  }
+
+  .sidebar-header h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  /* Quick Actions Nav */
+  .nav-label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    padding-left: 4px;
+  }
+
+  .quick-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: var(--bg-surface);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-main);
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+  }
+
+  .quick-btn:hover {
+    background: var(--bg-surface-hover);
+    transform: translateY(-2px) scale(1.02);
+    border-color: var(--brand-solid);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .icon { font-size: 16px; }
+
+  /* Main Chat Wrapper */
+  .chat-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Non-distracting, ultra-slow subtle object animation */
+  .subtle-orb {
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    background: radial-gradient(circle, var(--orb-color) 0%, transparent 60%);
+    border-radius: 50%;
+    top: 10%;
+    left: 20%;
+    pointer-events: none;
+    z-index: 0;
+    animation: slowDrift 25s infinite alternate ease-in-out;
+  }
+
+  @keyframes slowDrift {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(10vw, 10vh) scale(1.1); }
+  }
+
+  /* Chat Header */
+  .chat-header {
+    padding: 24px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+  }
+
+  .agent-pill {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    padding: 8px 16px 8px 8px;
+    border-radius: 30px;
+  }
+
+  .agent-avatar {
+    width: 32px; height: 32px;
+    background: var(--bg-sidebar);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    animation: nebulaPulse 3s infinite ease-in-out;
+  }
+  @keyframes nebulaPulse {
+    0%, 100% { box-shadow: 0 0 0 0 var(--brand-glow); }
+    50% { box-shadow: 0 0 15px 5px var(--brand-glow); }
+  }
+
+  .agent-meta { display: flex; flex-direction: column; }
+  .agent-name { font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 14px; line-height: 1; }
+  .agent-status { font-size: 10px; color: #10b981; font-weight: 600; margin-top: 4px; display: flex; align-items: center; gap:4px; letter-spacing: 0.5px;}
+  .status-dot { width: 4px; height: 4px; background: #10b981; border-radius: 50%; box-shadow: 0 0 4px #10b981;}
+
+  .header-actions { display: flex; gap: 10px; }
+
+  .icon-btn {
+    width: 40px; height: 40px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-surface);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-btn:hover { background: var(--bg-surface-hover); color: var(--text-main); }
+
+  /* Chat Content Area */
+  .chat-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    z-index: 10;
+    scroll-behavior: smooth;
+  }
+  
+  .chat-content::-webkit-scrollbar { width: 6px; }
+  .chat-content::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.2); border-radius: 10px; }
+
+  /* Dynamic Welcome Frame */
+  .welcome-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeScale 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .welcome-card {
+    text-align: center;
+    padding: 40px;
+    background: var(--bg-surface);
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-main);
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .welcome-card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 50%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+    transform: skewX(-20deg);
+    animation: glassDrift 6s infinite;
+  }
+  @keyframes glassDrift {
+    0% { left: -100%; }
+    20%, 100% { left: 200%; }
+  }
+
+  .welcome-emoji { font-size: 48px; margin-bottom: 16px; display: inline-block; animation: wave 2.5s infinite; transform-origin: 70% 70%; }
+  
+  @keyframes wave {
+    0%, 60%, 100% { transform: rotate(0deg) }
+    10%, 30% { transform: rotate(14deg) }
+    20%, 40% { transform: rotate(-8deg) }
+    50% { transform: rotate(10deg) }
+  }
+
+  .welcome-card h2 { font-family: 'Outfit', sans-serif; font-size: 28px; margin-bottom: 12px; }
+  .welcome-card h2 span { color: var(--brand-solid); }
+  .welcome-card p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+
+  /* Messages */
+  .message {
+    display: flex;
+    gap: 16px;
+    max-width: 80%;
+    animation: fadeScale 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  @keyframes fadeScale { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+  .message.user { flex-direction: row-reverse; margin-left: auto; }
+  .msg-avatar { display: none; } /* Hide avatars to match clean reference style */
+
+  .msg-content { display: flex; flex-direction: column; gap: 6px; max-width: 100%; }
+  .message.user .msg-content { align-items: flex-end; }
+
+  .bubble {
+    padding: 18px 22px;
+    border-radius: 16px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    border: 1px solid var(--border-color);
+  }
+
+  .message.bot .bubble { background: var(--msg-bot); border-top-left-radius: 4px; }
+  .message.user .bubble { background: var(--msg-user); border-top-right-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);}
+
+  .bubble strong { font-family: 'Inter', sans-serif; font-weight: 600; color: var(--brand-solid); }
+  .message.user .bubble strong { color: var(--text-main); }
+  .bubble ul { margin-left: 20px; list-style-type: disc; margin-top: 10px; margin-bottom: 10px;}
+  .bubble li { margin-bottom: 6px; color: var(--text-main); opacity: 0.9; }
+
+  /* Input Area */
+  .input-area {
+    padding: 20px 40px 40px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    background: var(--bg-input);
+    border-radius: 20px;
+    padding: 10px 10px 10px 24px;
+    box-shadow: var(--shadow-main);
+    border: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 800px;
+    transition: all 0.3s;
+  }
+  .input-wrapper:focus-within { border-color: rgba(249, 115, 22, 0.3); }
+
+  #user-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: var(--text-main);
+    resize: none;
+    max-height: 120px;
+    outline: none;
+    padding: 10px 0;
+  }
+  #user-input::placeholder { color: var(--text-muted); }
+
+  .send-btn {
+    width: 44px; height: 44px;
+    background: var(--brand-solid);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+  .send-btn:hover { background: #ea580c; transform: scale(1.05); }
+  .send-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .send-btn svg { width: 18px; height: 18px; fill: white; margin-left: 2px; }
+
+  /* Typing Indicator */
+  .typing { display: flex; align-items: center; gap: 6px; padding: 18px 22px; border-radius: 16px; border-top-left-radius: 4px; border: 1px solid var(--border-color);}
+  .typing span { width: 6px; height: 6px; background: var(--text-muted); border-radius: 50%; animation: type 1.4s infinite; opacity: 0.4; }
+  .typing span:nth-child(2) { animation-delay: 0.2s; } .typing span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes type { 0%, 100% { transform: translateY(0); opacity: 0.4; } 50% { transform: translateY(-4px); opacity: 1; } }
+
+  /* Debug Panel */
+  .debug-panel {
+    position: absolute; right: 0; top: 0; bottom: 0; width: 340px;
+    background: var(--bg-debug); backdrop-filter: blur(20px);
+    border-left: 1px solid var(--border-color); padding: 30px 24px;
+    transform: translateX(100%); transition: transform 0.3s ease; z-index: 50;
+  }
+  .debug-panel.show { transform: translateX(0); }
+  .debug-panel h3 { font-family: 'Outfit', sans-serif; font-size: 13px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 20px;}
+  .debug-item { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--debug-item-border); }
+  .debug-label { font-size: 11px; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase;}
+  .debug-value { font-size: 13px; color: var(--debug-val-text); line-height: 1.5; font-family: monospace; background: var(--debug-val-bg); padding: 10px; border-radius: 8px; border: 1px solid var(--debug-item-border);}
+  
+  /* Sources pills */
+  .msg-meta { font-size: 11px; color: var(--text-muted); display: flex; align-items: center; gap: 8px; margin-top: 6px;}
+  .sources-pill { font-size: 10px; background: var(--brand-glow); color: var(--brand-solid); padding: 4px 10px; border-radius: 20px; font-weight: 600; cursor: pointer;}
+  .sources-detail { margin-top: 8px; padding: 12px; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: 12px; font-size: 12px; display: none; }
+  .sources-detail.show { display: block; }
+
+</style>
+</head>
+<body>
+
+<div class="app-layout">
+  
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand-pill">✦ ShopMart</div>
+      <h2>Assistant</h2>
+    </div>
+
+    <div class="sidebar-nav">
+      <div class="nav-label">QUICK ACTIONS</div>
+      <button class="quick-btn" onclick="sendQuick('What are your delivery charges?')">
+        <span class="icon">🚀</span> Delivery charges
+      </button>
+      <button class="quick-btn" onclick="sendQuick('How do I return a product?')">
+        <span class="icon">↩️</span> Return policy
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Compare MacBook with ASUS')">
+        <span class="icon">💻</span> Compare Laptops
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Can you suggest me some beauty products?')">
+        <span class="icon">✨</span> Beauty Products
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Tell me about iPhone 15 price')">
+        <span class="icon">📱</span> iPhone 15
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Chat Wrapper -->
+  <main class="chat-wrapper">
+    <!-- Non-distracting subtle orb background -->
+    <div class="subtle-orb"></div>
+
+    <header class="chat-header">
+      <div class="agent-pill">
+        <div class="agent-avatar">✨</div>
+        <div class="agent-meta">
+          <div class="agent-name">Aria</div>
+          <div class="agent-status"><span class="status-dot"></span> ONLINE & READY TO HELP</div>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <button class="icon-btn" onclick="toggleTheme()" title="Toggle Light/Dark Mode" id="theme-btn">☀️</button>
+        <button class="icon-btn" onclick="toggleDebug()" title="Show RAG Debug">⚙️</button>
+        <button class="icon-btn" onclick="resetChat()" title="Restart">↻</button>
+      </div>
+    </header>
+
+    <div class="chat-content" id="messages">
+      <!-- Empty State -->
+      <div class="welcome-container" id="welcome-block">
+        <div class="welcome-card">
+          <div class="welcome-emoji">👋</div>
+          <h2>Hi! I'm <span>Aria</span>.</h2>
+          <p>I'm your personal shopping assistant. Ask me to compare products, track orders, or find the perfect item for you.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Input Box -->
+    <div class="input-area">
+      <div class="input-wrapper">
+        <textarea
+          id="user-input"
+          placeholder="Ask me about products, orders, returns..."
+          rows="1"
+          onkeydown="handleKey(event)"
+          oninput="autoResize(this)"
+        ></textarea>
+        <button class="send-btn" id="send-btn" onclick="sendMessage()">
+          <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Hidden Debug Panel -->
+    <div class="debug-panel" id="debug-panel">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h3 style="margin-bottom: 0;">⚙️ RAG Debug</h3>
+        <button class="icon-btn" onclick="toggleDebug()" title="Close Panel" style="width: 32px; height: 32px; font-size: 12px;">✖</button>
+      </div>
+      <div id="debug-content">
+        <p style="font-size: 12px; color: #64748b;">Send a message to see the retrieved context vectors.</p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Scripts -->
+<script>
+  let lastSources = [];
+  let turnCount = 0;
+
+  // Theme Toggle Logic
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('shopmart-theme', next);
+    updateThemeIcon(next);
+  }
+
+  function updateThemeIcon(theme) {
+    document.getElementById('theme-btn').innerText = theme === 'dark' ? '☀️' : '🌙';
+  }
+
+  // Pre-set correct icon
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  updateThemeIcon(currentTheme);
+
+  async function loadHistory() {
+    try {
+      const res = await fetch('/api/history');
+      const data = await res.json();
+      if (data.history && data.history.length > 0) {
+        removeWelcomeBlock();
+        data.history.forEach(msg => {
+          addMessage(msg.content, msg.role === 'assistant' ? 'bot' : 'user', []);
+        });
+        turnCount = Math.floor(data.history.length / 2);
+      }
+    } catch (err) { console.error('Failed to load history', err); }
+  }
+
+  window.addEventListener('DOMContentLoaded', loadHistory);
+
+  window.addEventListener('beforeunload', function(e) {
+    if (turnCount > 0) {
+      e.preventDefault(); e.returnValue = ''; 
+    }
+  });
+
+  function autoResize(el) {
+    el.style.height = 'auto';
+    el.style.height = Math.min(el.scrollHeight, 120) + 'px';
+  }
+
+  function handleKey(e) {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  }
+
+  function sendQuick(msg) {
+    document.getElementById('user-input').value = msg;
+    sendMessage();
+  }
+
+  function removeWelcomeBlock() {
+    const welcomeBlock = document.getElementById('welcome-block');
+    if (welcomeBlock) welcomeBlock.remove();
+  }
+
+  async function sendMessage() {
+    const input = document.getElementById('user-input');
+    const msg = input.value.trim();
+    if (!msg) return;
+
+    addMessage(msg, 'user');
+    input.value = '';
+    input.style.height = 'auto';
+
+    const btn = document.getElementById('send-btn');
+    btn.disabled = true;
+
+    const typingId = addTyping();
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: msg })
+      });
+
+      const data = await res.json();
+      removeTyping(typingId);
+
+      if (data.error) {
+        addMessage('Sorry, something went wrong formatting the response.', 'bot', []);
+      } else {
+        turnCount++;
+        lastSources = data.metadata?.sources || [];
+        addMessage(data.response, 'bot', lastSources, data.metadata);
+        updateDebug(data.metadata, msg);
+      }
+    } catch (err) {
+      removeTyping(typingId);
+      addMessage('Could not connect to the local inference server.', 'bot', []);
+    }
+
+    btn.disabled = false;
+    input.focus();
+  }
+
+  function addMessage(text, role, sources = [], metadata = null) {
+    removeWelcomeBlock();
+    const container = document.getElementById('messages');
+    const div = document.createElement('div');
+    div.className = `message ${role}`;
+
+    let sourcesHtml = '';
+    if (role === 'bot' && sources.length > 0) {
+      const msgId = 'src_' + Date.now();
+      sourcesHtml = `
+        <div class="msg-meta">
+          <span class="sources-pill" onclick="toggleSources('${msgId}')">📚 ${sources.length} sources</span>
+        </div>
+        <div class="sources-detail" id="${msgId}">
+          ${sources.map(s => `
+            <div style="display:flex; justify-content:space-between; padding:4px 0;">
+              <span>${s.category}</span>
+              <strong style="color:var(--brand-solid)">${(s.similarity * 100).toFixed(0)}%</strong>
+            </div>`).join('')}
+        </div>`;
+    }
+
+    div.innerHTML = `
+      <div class="msg-content">
+        <div class="bubble">${formatText(text)}</div>
+        ${sourcesHtml}
+      </div>`;
+
+    container.appendChild(div);
+    container.scrollTop = container.scrollHeight;
+  }
+
+  function formatText(text) {
+    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\*(.*?)\*/g, '<em>$1</em>').replace(/\n/g, '<br>');
+  }
+
+  function toggleSources(id) {
+    document.getElementById(id).classList.toggle('show');
+  }
+
+  let typingCounter = 0;
+  function addTyping() {
+    const id = 'typing_' + (++typingCounter);
+    const container = document.getElementById('messages');
+    const div = document.createElement('div');
+    div.className = 'message bot';
+    div.id = id;
+    div.innerHTML = `<div class="msg-content"><div class="typing"><span></span><span></span><span></span></div></div>`;
+    container.appendChild(div);
+    container.scrollTop = container.scrollHeight;
+    return id;
+  }
+
+  function removeTyping(id) {
+    const el = document.getElementById(id);
+    if (el) el.remove();
+  }
+
+  function toggleDebug() {
+    document.getElementById('debug-panel').classList.toggle('show');
+  }
+
+  function updateDebug(metadata, query) {
+    if (!metadata) return;
+    document.getElementById('debug-content').innerHTML = `
+      <div class="debug-item"><div class="debug-label">Query</div><div class="debug-value">"${query}"</div></div>
+      <div class="debug-item"><div class="debug-label">Vectors</div>${metadata.sources.map(s => `<div class="debug-value" style="margin-bottom:8px; border-left: 3px solid #f97316">${(s.similarity*100).toFixed(1)}% - ${s.category}</div>`).join('')}</div>
+      <div class="debug-item"><div class="debug-label">Memory</div><div class="debug-value">${metadata.history_turns} turns</div></div>
+      <div class="debug-item"><div class="debug-label">Engine</div><div class="debug-value">${metadata.model}</div></div>`;
+  }
+
+  async function resetChat() {
+    await fetch('/api/reset', { method: 'POST' });
+    const container = document.getElementById('messages');
+    container.innerHTML = `
+      <div class="welcome-container" id="welcome-block">
+        <div class="welcome-card">
+          <div class="welcome-emoji">👋</div>
+          <h2>Hi! I'm <span>Aria</span>.</h2>
+          <p>I'm your personal shopping assistant. Ask me to compare products, track orders, or find the perfect item for you.</p>
+        </div>
+      </div>`;
+    turnCount = 0;
+    document.getElementById('debug-content').innerHTML = '<p style="font-size:12px; color:var(--text-muted)">Send a message to see context.</p>';
+  }
+</script>
+</body>
+</html>

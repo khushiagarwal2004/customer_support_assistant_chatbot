@@ -1,0 +1,2292 @@
+================================================================================
+PRODUCT CATALOGUE — CUSTOMER SUPPORT KNOWLEDGE BASE
+================================================================================
+Last Updated: March 2026
+Purpose: This file is used by the customer support chatbot to answer product-
+related queries accurately. Each entry includes pricing, variants, materials,
+specs, discounts, and stock availability.
+Total Products: 80 (20 per category across 4 categories)
+================================================================================
+
+
+================================================================================
+CATEGORY 1: FASHION & APPAREL (20 Products)
+================================================================================
+
+--------------------------------------------------------------------------------
+PRODUCT: Classic Slim-Fit Chino Trousers
+SKU: FA-CHN-001
+--------------------------------------------------------------------------------
+Description:
+  Everyday slim-fit chinos crafted for comfort and versatility. Suitable for
+  casual and semi-formal occasions.
+
+Sizes Available:
+  Waist: 28, 30, 32, 34, 36, 38 | Length: 30, 32, 34 | Fit: Slim Fit
+
+Colour Variants:
+  Beige (bestseller), Navy Blue, Olive Green, Charcoal Grey, Off White
+
+Material & Care:
+  - 98% Cotton, 2% Elastane
+  - Machine wash cold, gentle cycle; do not tumble dry; iron on medium heat
+
+Pricing:
+  - Regular: ₹1,999 | Sale: ₹1,499 (25% off)
+  - Buy 2+: extra 10% off
+
+Stock Availability:
+  - Beige (32/32, 34/32): In Stock | Navy Blue (all): In Stock
+  - Olive Green (28/30, 30/30): Low Stock | Charcoal Grey: Out of Stock (2–3 wks)
+  - Off White: In Stock
+
+Chatbot Notes:
+  - Charcoal Grey: offer waitlist sign-up via email.
+  - 2% elastane gives comfortable all-day stretch.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Floral Wrap Dress
+SKU: FA-DRS-002
+--------------------------------------------------------------------------------
+Description:
+  Lightweight viscose wrap dress with adjustable tie waist. Perfect for
+  brunches, casual outings, and summer events.
+
+Sizes Available:
+  XS, S, M, L, XL, XXL (Indian sizing: XS=32, S=34, M=36, L=38, XL=40, XXL=42)
+
+Colour/Print Variants:
+  Blue Floral (bestseller), Pink Botanical, Yellow Sunburst, Ivory Minimal Print
+
+Material & Care:
+  - 100% Viscose | Hand wash only; do not wring; store hanging
+
+Pricing:
+  - Regular: ₹2,499 | Sale: ₹1,799 (28% off — seasonal)
+
+Stock Availability:
+  - Blue Floral: In Stock (all) | Pink Botanical: In Stock (S, M, L only)
+  - Yellow Sunburst: Low Stock (M, L only) | Ivory: In Stock (all)
+
+Chatbot Notes:
+  - Viscose runs slightly large; suggest sizing down if between sizes.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Puffer Jacket
+SKU: FA-JKT-003
+--------------------------------------------------------------------------------
+Description:
+  Quilted puffer jacket with zip-up front, two side pockets, water-resistant
+  outer shell. Ideal for winters and cool evenings.
+
+Sizes Available:
+  S, M, L, XL, XXL
+
+Colour Variants:
+  Midnight Black, Royal Blue, Burnt Orange
+
+Material & Care:
+  - Shell: 100% Polyester (water-resistant) | Fill: 80% Duck Down, 20% Feather
+  - Dry clean recommended; do not machine wash
+
+Pricing:
+  - Regular: ₹4,999 | Sale: ₹3,799 (24% off — winter clearance)
+  - Buy 2 jackets: extra 15% off
+
+Stock Availability:
+  - Midnight Black: In Stock (all) | Royal Blue: In Stock (M, L, XL); OOS (S, XXL)
+  - Burnt Orange: Low Stock (L, XL only)
+
+Chatbot Notes:
+  - Water-resistant NOT waterproof. Down allergy? Suggest FA-FLC-004.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Fleece Zip-Up Hoodie
+SKU: FA-FLC-004
+--------------------------------------------------------------------------------
+Description:
+  A cosy mid-layer fleece hoodie with full zip, kangaroo pocket, and ribbed
+  cuffs. Great for layering or casual everyday wear.
+
+Sizes Available:
+  S, M, L, XL, XXL, 3XL
+
+Colour Variants:
+  Heather Grey, Forest Green, Burgundy, Navy, Black
+
+Material & Care:
+  - 100% Recycled Polyester Fleece
+  - Machine wash cold; tumble dry low; do not iron directly on fleece
+
+Pricing:
+  - Regular: ₹2,799 | Sale: ₹2,099 (25% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - Heather Grey: In Stock (all) | Forest Green: In Stock (all)
+  - Burgundy: Low Stock (S, M only) | Navy: In Stock | Black: In Stock
+
+Chatbot Notes:
+  - Down-allergy-safe alternative to FA-JKT-003.
+  - 3XL available only in Heather Grey and Black.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's High-Waist Yoga Leggings
+SKU: FA-LGG-005
+--------------------------------------------------------------------------------
+Description:
+  Four-way stretch yoga leggings with a wide waistband, hidden pocket, and
+  moisture-wicking fabric. Squat-proof design.
+
+Sizes Available:
+  XS, S, M, L, XL, XXL
+
+Colour Variants:
+  Jet Black (bestseller), Deep Plum, Sage Green, Slate Blue, Dusty Rose
+
+Material & Care:
+  - 78% Nylon, 22% Spandex
+  - Machine wash cold, inside out; hang dry; do not use fabric softener
+
+Pricing:
+  - Regular: ₹1,899 | Sale: ₹1,399 (26% off)
+  - Buy 2 pairs: extra 12% off
+
+Stock Availability:
+  - Jet Black: In Stock (all) | Deep Plum: In Stock (XS–XL); OOS (XXL)
+  - Sage Green: Low Stock (S, M) | Slate Blue: In Stock | Dusty Rose: In Stock
+
+Chatbot Notes:
+  - Squat-proof tested; suitable for high-impact workouts.
+  - Fabric softener degrades the spandex elasticity — mention proactively.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Oxford Button-Down Shirt
+SKU: FA-SRT-006
+--------------------------------------------------------------------------------
+Description:
+  A classic Oxford weave button-down shirt for smart-casual and business-casual
+  looks. Relaxed fit with a chest pocket.
+
+Sizes Available:
+  S, M, L, XL, XXL | Fit: Relaxed
+
+Colour Variants:
+  White, Light Blue, Pink, Grey Stripe, Navy
+
+Material & Care:
+  - 100% Cotton Oxford Weave
+  - Machine wash warm; tumble dry low; iron on medium-high heat
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+  - No bulk discount on shirts
+
+Stock Availability:
+  - White: In Stock (all) | Light Blue: In Stock (all) | Pink: Low Stock (M, L)
+  - Grey Stripe: In Stock | Navy: In Stock
+
+Chatbot Notes:
+  - Relaxed fit; customers wanting a fitted look should size down.
+  - Oxford weave is slightly heavier than poplin — not ideal for peak summer.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Knit Cardigan
+SKU: FA-CDG-007
+--------------------------------------------------------------------------------
+Description:
+  A longline open-front knit cardigan with ribbed hem and cuffs. Versatile
+  layering piece for all seasons.
+
+Sizes Available:
+  XS/S (fits both), M/L (fits both), XL/XXL (fits both)
+
+Colour Variants:
+  Camel, Cream, Charcoal, Dusty Mauve, Forest Green
+
+Material & Care:
+  - 60% Acrylic, 30% Wool, 10% Nylon
+  - Hand wash cold or dry clean; lay flat to dry; do not hang (stretches)
+
+Pricing:
+  - Regular: ₹2,299 | Sale: ₹1,699 (26% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - Camel: In Stock (all) | Cream: In Stock (all) | Charcoal: Low Stock (XL/XXL)
+  - Dusty Mauve: In Stock | Forest Green: In Stock
+
+Chatbot Notes:
+  - Contains wool — not suitable for wool-allergy customers; suggest acrylic-
+    only alternatives.
+  - Do NOT hang to dry; will stretch out of shape.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Slim-Fit Formal Trousers
+SKU: FA-FTR-008
+--------------------------------------------------------------------------------
+Description:
+  Tailored slim-fit formal trousers with a flat front, side pockets, and
+  invisible back button pocket. Suitable for office and events.
+
+Sizes Available:
+  Waist: 28, 30, 32, 34, 36, 38 | Length: 30, 32, 34
+
+Colour Variants:
+  Black, Charcoal, Navy, Dark Grey Pinstripe, Tan
+
+Material & Care:
+  - 65% Polyester, 33% Viscose, 2% Elastane (wrinkle-resistant blend)
+  - Dry clean recommended; can machine wash on delicate cold; steam iron only
+
+Pricing:
+  - Regular: ₹2,499 | Sale: ₹1,899 (24% off)
+  - Buy 2 trousers: extra 10% off
+
+Stock Availability:
+  - Black: In Stock (all) | Charcoal: In Stock (all) | Navy: In Stock
+  - Dark Grey Pinstripe: Low Stock (32/32 only) | Tan: Out of Stock (3–4 wks)
+
+Chatbot Notes:
+  - Wrinkle-resistant blend — good for travel.
+  - Tan: offer waitlist sign-up.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Denim Jacket
+SKU: FA-DNM-009
+--------------------------------------------------------------------------------
+Description:
+  A classic cropped denim jacket with button front, two chest pockets, and
+  adjustable button cuffs. Timeless wardrobe staple.
+
+Sizes Available:
+  XS, S, M, L, XL, XXL
+
+Colour Variants:
+  Classic Blue Wash, Light Blue, Dark Indigo, Black Denim, Distressed White
+
+Material & Care:
+  - 100% Cotton Denim (12 oz.)
+  - Machine wash cold, inside out; tumble dry medium; iron inside out
+
+Pricing:
+  - Regular: ₹3,199 | Sale: ₹2,399 (25% off)
+  - No additional bulk discount
+
+Stock Availability:
+  - Classic Blue Wash: In Stock (all) | Light Blue: In Stock (all)
+  - Dark Indigo: Low Stock (S, M, L) | Black Denim: In Stock | Distressed White: Low Stock
+
+Chatbot Notes:
+  - Denim may bleed slightly in first 1–2 washes; wash separately initially.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Running Shorts
+SKU: FA-SHT-010
+--------------------------------------------------------------------------------
+Description:
+  Lightweight 5-inch inseam running shorts with built-in liner, reflective
+  details, and rear zip pocket. Moisture-wicking and quick-dry.
+
+Sizes Available:
+  S, M, L, XL, XXL
+
+Colour Variants:
+  Black, Navy, Electric Blue, Neon Green, Red
+
+Material & Care:
+  - 88% Polyester, 12% Spandex | Machine wash cold; hang dry; do not iron
+
+Pricing:
+  - Regular: ₹1,299 | Sale: ₹969 (25% off)
+  - Buy 3 pairs: extra 15% off
+
+Stock Availability:
+  - Black: In Stock (all) | Navy: In Stock | Electric Blue: In Stock
+  - Neon Green: Low Stock (M, L) | Red: In Stock
+
+Chatbot Notes:
+  - Built-in liner replaces need for separate compression shorts for most users.
+  - Reflective details for low-light safety — mention to running customers.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Linen Co-Ord Set (Top + Trousers)
+SKU: FA-COD-011
+--------------------------------------------------------------------------------
+Description:
+  A breezy linen co-ord set with a relaxed cropped top and wide-leg trousers.
+  Sold as a set. Perfect for summer and vacation styling.
+
+Sizes Available:
+  XS, S, M, L, XL (sold as a matching set)
+
+Colour Variants:
+  Natural Ecru, Powder Blue, Terracotta, Sage Green, Blush Pink
+
+Material & Care:
+  - 100% Linen | Machine wash gentle cold; hang dry; iron while slightly damp
+
+Pricing:
+  - Regular: ₹3,499 | Sale: ₹2,599 (26% off)
+  - No additional bulk discount (set pricing already discounted)
+
+Stock Availability:
+  - Natural Ecru: In Stock (all) | Powder Blue: In Stock (all)
+  - Terracotta: Low Stock (S, M) | Sage Green: In Stock | Blush Pink: Out of Stock (4 wks)
+
+Chatbot Notes:
+  - Linen wrinkles naturally — this is normal for the fabric; not a defect.
+  - Blush Pink: offer waitlist.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Graphic Oversized Tee
+SKU: FA-TEE-012
+--------------------------------------------------------------------------------
+Description:
+  Dropped-shoulder oversized tee with original graphic prints. 100% cotton,
+  pre-shrunk fabric. Unisex fit.
+
+Sizes Available:
+  S, M, L, XL, XXL (unisex; women typically size down one)
+
+Colour/Print Variants:
+  Vintage Wash Black (Abstract), Off White (Botanical), Sand (Geometric),
+  Pale Blue (Typography), Olive (Nature Print)
+
+Material & Care:
+  - 100% Combed Cotton, pre-shrunk
+  - Machine wash cold inside out; tumble dry low; do not iron on print
+
+Pricing:
+  - Regular: ₹999 | Sale: ₹749 (25% off)
+  - Buy 3: extra 10% off
+
+Stock Availability:
+  - All variants: In Stock
+
+Chatbot Notes:
+  - Pre-shrunk but may shrink slightly in hot wash — always wash cold.
+  - Do NOT iron directly on the graphic print.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Sports Bra (Medium Support)
+SKU: FA-BRA-013
+--------------------------------------------------------------------------------
+Description:
+  A medium-support sports bra with racerback design, removable pads, and
+  moisture-wicking fabric. Suitable for yoga, pilates, and light jogging.
+
+Sizes Available:
+  XS, S, M, L, XL, XXL (based on band + cup fit; refer to size chart)
+
+Colour Variants:
+  Black, White, Coral, Lilac, Teal
+
+Material & Care:
+  - 82% Nylon, 18% Spandex | Machine wash cold; hang dry; do not tumble dry
+
+Pricing:
+  - Regular: ₹1,199 | Sale: ₹899 (25% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - Black: In Stock (all) | White: In Stock | Coral: In Stock
+  - Lilac: Low Stock (S, M) | Teal: In Stock
+
+Chatbot Notes:
+  - Medium support — not recommended for high-impact activities (running, HIIT).
+  - Removable pads; do not wash pads in machine — hand wash separately.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Casual Linen Shirt
+SKU: FA-LIN-014
+--------------------------------------------------------------------------------
+Description:
+  Lightweight half-sleeve linen shirt with a relaxed collar and two chest
+  pockets. Ideal for summer and vacation wear.
+
+Sizes Available:
+  S, M, L, XL, XXL | Fit: Regular
+
+Colour Variants:
+  White, Sky Blue, Peach, Mint Green, Yellow
+
+Material & Care:
+  - 100% Linen | Machine wash gentle; line dry; iron while damp
+
+Pricing:
+  - Regular: ₹1,599 | Sale: ₹1,199 (25% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - White: In Stock (all) | Sky Blue: In Stock | Peach: In Stock
+  - Mint Green: Low Stock (M, L) | Yellow: In Stock
+
+Chatbot Notes:
+  - Natural linen wrinkle is part of the fabric character — not a defect.
+
+--------------------------------------------------------------------------------
+PRODUCT: Girls' Embroidered Kurta Set
+SKU: FA-KRT-015
+--------------------------------------------------------------------------------
+Description:
+  Cotton kurta with embroidered neckline, paired with printed palazzo pants.
+  Sold as a set. For girls aged 4–14 years.
+
+Sizes Available:
+  Age 4–5Y, 6–7Y, 8–9Y, 10–11Y, 12–13Y, 14Y
+
+Colour Variants:
+  Pink & Gold, Blue & Silver, Red & White, Yellow & Green, Purple & Ivory
+
+Material & Care:
+  - Kurta: 100% Cotton | Palazzo: 100% Cotton
+  - Machine wash cold; do not bleach; tumble dry low
+
+Pricing:
+  - Regular: ₹1,299 | Sale: ₹979 (25% off)
+  - Buy 2 sets: extra 10% off
+
+Stock Availability:
+  - Pink & Gold: In Stock (all ages) | Blue & Silver: In Stock
+  - Red & White: Low Stock (4–5Y, 6–7Y) | Yellow & Green: In Stock
+  - Purple & Ivory: Out of Stock (restock in 3 wks)
+
+Chatbot Notes:
+  - Sizing is age-based; recommend parents check chest/height measurements
+    against size chart on product page.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Wool Blend Blazer
+SKU: FA-BLZ-016
+--------------------------------------------------------------------------------
+Description:
+  A structured single-breasted blazer in a wool-blend fabric. Two-button
+  closure, notch lapel, two front pockets, one chest pocket. Semi-formal.
+
+Sizes Available:
+  36, 38, 40, 42, 44, 46 (chest size in inches)
+
+Colour Variants:
+  Navy, Charcoal, Camel, Dark Green, Black
+
+Material & Care:
+  - 55% Wool, 45% Polyester | Dry clean only; steam to remove wrinkles
+
+Pricing:
+  - Regular: ₹6,999 | Sale: ₹5,249 (25% off)
+  - No additional bulk discount
+
+Stock Availability:
+  - Navy: In Stock (all) | Charcoal: In Stock | Camel: Low Stock (40, 42)
+  - Dark Green: In Stock | Black: In Stock
+
+Chatbot Notes:
+  - Dry clean ONLY — machine or hand wash will damage structure and wool content.
+  - Wool content: unsuitable for wool-allergy customers.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Padded Puffer Vest
+SKU: FA-VST-017
+--------------------------------------------------------------------------------
+Description:
+  Sleeveless puffer vest with zip front, two side pockets, and a lightweight
+  water-resistant shell. Great for layering.
+
+Sizes Available:
+  XS, S, M, L, XL, XXL
+
+Colour Variants:
+  Black, Blush Pink, Olive, Cream, Electric Blue
+
+Material & Care:
+  - Shell: 100% Polyester (water-resistant) | Fill: Synthetic down alternative
+  - Machine wash cold; tumble dry low with tennis balls to re-fluff
+
+Pricing:
+  - Regular: ₹2,999 | Sale: ₹2,249 (25% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - Black: In Stock (all) | Blush Pink: In Stock | Olive: In Stock
+  - Cream: Low Stock (S, M) | Electric Blue: In Stock
+
+Chatbot Notes:
+  - Synthetic down fill — suitable for customers with down/feather allergies.
+  - Tumble dry with tennis balls to restore loft after washing.
+
+--------------------------------------------------------------------------------
+PRODUCT: Men's Cargo Joggers
+SKU: FA-JGR-018
+--------------------------------------------------------------------------------
+Description:
+  Tapered cargo joggers with elasticated waist, drawstring, cuffed ankles, and
+  four utility pockets. Comfortable for everyday wear.
+
+Sizes Available:
+  S, M, L, XL, XXL, 3XL
+
+Colour Variants:
+  Black, Khaki, Olive, Dark Grey, Stone
+
+Material & Care:
+  - 97% Cotton, 3% Elastane | Machine wash cold; tumble dry low; iron low heat
+
+Pricing:
+  - Regular: ₹1,899 | Sale: ₹1,424 (25% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - Black: In Stock (all) | Khaki: In Stock | Olive: In Stock
+  - Dark Grey: Low Stock (L, XL) | Stone: In Stock
+
+Chatbot Notes:
+  - 3XL available in Black and Khaki only.
+
+--------------------------------------------------------------------------------
+PRODUCT: Women's Formal Pencil Skirt
+SKU: FA-SKT-019
+--------------------------------------------------------------------------------
+Description:
+  A knee-length pencil skirt with a back slit and invisible zip closure.
+  Wrinkle-resistant fabric. Office and event-ready.
+
+Sizes Available:
+  XS, S, M, L, XL, XXL
+
+Colour Variants:
+  Black, Charcoal, Navy, Beige, Burgundy
+
+Material & Care:
+  - 65% Polyester, 33% Viscose, 2% Elastane
+  - Machine wash gentle cold; hang dry; steam iron only
+
+Pricing:
+  - Regular: ₹1,999 | Sale: ₹1,499 (25% off)
+  - Buy 2: extra 10% off
+
+Stock Availability:
+  - Black: In Stock (all) | Charcoal: In Stock | Navy: In Stock
+  - Beige: Low Stock (M, L) | Burgundy: In Stock
+
+Chatbot Notes:
+  - Back slit allows comfortable movement — a common customer concern resolved.
+
+--------------------------------------------------------------------------------
+PRODUCT: Unisex Canvas Sneakers
+SKU: FA-SNK-020
+--------------------------------------------------------------------------------
+Description:
+  Classic low-top canvas sneakers with a rubber sole and lace-up closure.
+  Unisex fit. Casual everyday footwear.
+
+Sizes Available:
+  UK 4, 5, 6, 7, 8, 9, 10, 11, 12 (unisex sizing)
+
+Colour Variants:
+  White, Black, Navy, Red, Sage Green, Mustard Yellow
+
+Material & Care:
+  - Upper: 100% Canvas | Sole: Vulcanised Rubber
+  - Spot clean with damp cloth; do not machine wash; air dry only
+
+Pricing:
+  - Regular: ₹1,499 | Sale: ₹1,124 (25% off)
+  - Buy 2 pairs: extra 10% off
+
+Stock Availability:
+  - White: In Stock (all sizes) | Black: In Stock | Navy: In Stock
+  - Red: Low Stock (UK 7, 8) | Sage Green: In Stock | Mustard Yellow: Low Stock
+
+Chatbot Notes:
+  - Canvas can be cleaned with a toothbrush + mild soap for stubborn marks.
+  - Machine washing will damage the vulcanised sole bond.
+
+
+================================================================================
+CATEGORY 2: ELECTRONICS & GADGETS (20 Products)
+================================================================================
+
+--------------------------------------------------------------------------------
+PRODUCT: ProSound X3 Wireless Earbuds
+SKU: EL-EAR-001
+--------------------------------------------------------------------------------
+Description:
+  True wireless earbuds with ANC, 30-hour total battery (6hr buds + 24hr case),
+  and IPX5 water resistance. Bluetooth 5.2.
+
+Variants:
+  Matte Black, Pearl White, Dusty Rose | 3 ear tip sizes (S, M, L) in box
+
+Technical Specifications:
+  - Driver: 11mm | ANC: Yes (hybrid) | BT: 5.2 | IPX5
+  - Charging: USB-C + wireless | Mic: Dual ENC | Weight: 5.4g/earbud
+
+Pricing:
+  - Regular: ₹5,999 | Sale: ₹4,499 (25% off)
+  - Student code STUDENT5: extra 5% off electronics
+
+Stock Availability:
+  - Matte Black: In Stock | Pearl White: In Stock | Dusty Rose: Low Stock
+
+Warranty: 1 year standard; extended 2-year for ₹499 at checkout
+
+Chatbot Notes:
+  - IPX5 = splash/sweat resistant, NOT for swimming.
+  - Works with Android and iPhone.
+
+--------------------------------------------------------------------------------
+PRODUCT: SwiftCharge 65W GaN Charger
+SKU: EL-CHG-002
+--------------------------------------------------------------------------------
+Description:
+  Compact 65W GaN USB-C charger with foldable plug. Charges laptops, phones,
+  tablets at full speed. Global voltage compatible.
+
+Variants:
+  White only | Indian plug (Type B/D)
+
+Technical Specifications:
+  - Output: 65W USB-C PD 3.0 | Input: 100–240V
+  - Dims: 45×45×30mm | Weight: 118g | Safety: OVP, OCP, OTP
+
+Pricing:
+  - Regular: ₹2,499 | Sale: ₹1,899 (24% off) | No stacking
+
+Stock Availability: In Stock
+
+Warranty: 18 months
+
+Chatbot Notes:
+  - Cable NOT included.
+  - MagSafe: not compatible.
+  - Works globally with a physical plug adapter.
+
+--------------------------------------------------------------------------------
+PRODUCT: SmartView 4K Action Camera
+SKU: EL-CAM-003
+--------------------------------------------------------------------------------
+Description:
+  Rugged 4K action camera with EIS, waterproof to 10m, and 2-inch touch display.
+
+Variants:
+  Camera Only: ₹8,999 | Camera + Accessories Kit: ₹11,499
+
+Technical Specifications:
+  - Video: 4K@60fps, 1080p@240fps | Photo: 20MP
+  - EIS: 6-axis | Waterproof: 10m | Battery: 1750mAh (~90 min at 4K)
+  - Storage: MicroSD up to 256GB (not included)
+
+Pricing:
+  - Camera Only: ₹8,999 | Bundle: ₹11,499 (save ₹1,500)
+
+Stock: Camera Only — In Stock | Bundle — Low Stock (8 units)
+
+Warranty: 1 year (water damage not covered beyond rated depth)
+
+Chatbot Notes:
+  - MicroSD Class 10/UHS-I recommended.
+  - Extra battery: ₹799 (SKU: EL-BAT-003A).
+
+--------------------------------------------------------------------------------
+PRODUCT: NoiseClear Pro Over-Ear Headphones
+SKU: EL-HPH-004
+--------------------------------------------------------------------------------
+Description:
+  Premium over-ear wireless headphones with 40-hour battery, foldable design,
+  hybrid ANC, and Hi-Res Audio certification.
+
+Variants:
+  Matte Black, Midnight Blue, Rose Gold
+
+Technical Specifications:
+  - Driver: 40mm | ANC: Hybrid | Battery: 40 hours (ANC off), 30 hours (ANC on)
+  - BT: 5.3 | Foldable: Yes | Hi-Res Audio: Yes | 3.5mm wired mode: Yes
+  - Charging: USB-C (2hrs full charge)
+
+Pricing:
+  - Regular: ₹8,999 | Sale: ₹6,749 (25% off)
+  - Student code STUDENT5: extra 5% off
+
+Stock Availability:
+  - Matte Black: In Stock | Midnight Blue: In Stock | Rose Gold: Low Stock
+
+Warranty: 1 year; extended 2-year for ₹799
+
+Chatbot Notes:
+  - Wired mode works even when battery is dead (use included 3.5mm cable).
+  - Foldable — fits in provided hard carry case.
+
+--------------------------------------------------------------------------------
+PRODUCT: 10000mAh Slim Power Bank
+SKU: EL-PBK-005
+--------------------------------------------------------------------------------
+Description:
+  A slim, pocket-sized 10,000mAh power bank with dual USB-A outputs and one
+  USB-C port. Supports 22.5W fast charging.
+
+Variants:
+  Black, White, Navy Blue
+
+Technical Specifications:
+  - Capacity: 10,000mAh | Output: USB-A (2x, 12W each) + USB-C (22.5W)
+  - Input: USB-C (18W) | Dims: 14.8cm × 7.0cm × 1.4cm | Weight: 218g
+  - Safety: Short-circuit and overcharge protection
+
+Pricing:
+  - Regular: ₹2,299 | Sale: ₹1,724 (25% off)
+  - Buy 2: extra 10% off
+
+Stock: Black — In Stock | White — In Stock | Navy Blue — Low Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Cable not included.
+  - Cannot carry on aircraft if >100Wh; this model is ~37Wh — airline safe.
+
+--------------------------------------------------------------------------------
+PRODUCT: Smart LED Desk Lamp
+SKU: EL-LMP-006
+--------------------------------------------------------------------------------
+Description:
+  Touch-control LED desk lamp with 5 brightness levels, 3 colour temperatures
+  (warm/natural/cool), USB charging port on base, and auto-off timer.
+
+Variants:
+  White, Black
+
+Technical Specifications:
+  - LED: 12W | Brightness: 5 levels | Colour Temp: 2700K / 4000K / 6500K
+  - USB-A port on base: 5W | Timer: 30/60 min auto-off | Eye-care flicker-free
+  - Power: AC adapter (included)
+
+Pricing:
+  - Regular: ₹1,999 | Sale: ₹1,499 (25% off)
+  - Buy 2: extra 10% off
+
+Stock: White — In Stock | Black — In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - USB port on base is for charging only — not data transfer.
+  - Eye-care certification helps with long study/work sessions.
+
+--------------------------------------------------------------------------------
+PRODUCT: Bluetooth Mechanical Gaming Keyboard
+SKU: EL-KBD-007
+--------------------------------------------------------------------------------
+Description:
+  Compact 75% wireless mechanical keyboard with per-key RGB lighting, hot-swap
+  switches, Bluetooth 5.0 + USB-C wired mode, and 4000mAh battery.
+
+Variants:
+  - Switch type: Red (linear), Blue (clicky), Brown (tactile)
+  - Colour: Space Grey only
+
+Technical Specifications:
+  - Layout: 75% (no numpad) | Keys: 84 | RGB: Per-key
+  - BT: 5.0 (up to 3 devices) | Battery: 4000mAh (~200 hrs without RGB)
+  - Hot-swap: Yes (supports 3/5-pin switches) | Wired: USB-C
+
+Pricing:
+  - Regular: ₹6,499 | Sale: ₹4,874 (25% off)
+  - Switch choice at checkout — no additional cost
+
+Stock:
+  - Red switches: In Stock | Blue switches: In Stock | Brown switches: Low Stock
+
+Warranty: 1 year | Switches: 50 million keystroke rating
+
+Chatbot Notes:
+  - Hot-swap: customers can replace switches without soldering.
+  - Blue switches are loud — advise if customer is in a shared office.
+
+--------------------------------------------------------------------------------
+PRODUCT: 27-inch 4K USB-C Monitor
+SKU: EL-MON-008
+--------------------------------------------------------------------------------
+Description:
+  A 27-inch IPS 4K monitor with USB-C (90W PD), HDMI 2.1, DisplayPort 1.4,
+  and built-in speakers. Height-adjustable stand.
+
+Variants:
+  Black only
+
+Technical Specifications:
+  - Panel: IPS | Resolution: 3840×2160 (4K) | Refresh: 60Hz
+  - Ports: USB-C (90W PD + display), 2x HDMI 2.1, 1x DP 1.4, 4x USB-A hub
+  - Speakers: 2x 5W built-in | sRGB: 99% | Response: 5ms (GtG)
+
+Pricing:
+  - Regular: ₹34,999 | Sale: ₹27,999 (20% off)
+  - No additional bulk discount
+
+Stock: In Stock
+
+Warranty: 3 years (1 dead pixel policy)
+
+Chatbot Notes:
+  - 90W USB-C PD can charge most laptops (MacBook Air, Dell XPS, etc.).
+  - Not a gaming monitor (60Hz); direct customers needing high refresh rate
+    to EL-MON-009.
+
+--------------------------------------------------------------------------------
+PRODUCT: 27-inch 165Hz Gaming Monitor
+SKU: EL-MON-009
+--------------------------------------------------------------------------------
+Description:
+  A 27-inch VA panel gaming monitor with 165Hz refresh rate, 1ms response time,
+  AMD FreeSync Premium, and curved display (1500R).
+
+Variants:
+  Black only
+
+Technical Specifications:
+  - Panel: VA Curved (1500R) | Resolution: 1920×1080 (FHD) | Refresh: 165Hz
+  - Response: 1ms (MPRT) | FreeSync Premium: Yes | G-Sync Compatible: Yes
+  - Ports: 2x HDMI 2.0, 1x DP 1.4, 3x USB-A | HDR: HDR400
+
+Pricing:
+  - Regular: ₹22,999 | Sale: ₹18,399 (20% off)
+
+Stock: In Stock
+
+Warranty: 3 years
+
+Chatbot Notes:
+  - FHD (1080p), not 4K — if customer wants 4K, direct to EL-MON-008.
+  - Curved display; not wall-mountable without a curved VESA arm.
+
+--------------------------------------------------------------------------------
+PRODUCT: Smart Wi-Fi Plug (Pack of 2)
+SKU: EL-PLG-010
+--------------------------------------------------------------------------------
+Description:
+  Compact smart plugs compatible with Alexa, Google Home, and Apple HomeKit.
+  Schedule, timer, and energy monitoring via app. Pack of 2.
+
+Variants:
+  White only | Indian Type D plug standard
+
+Technical Specifications:
+  - Max Load: 2300W / 10A | Wi-Fi: 2.4GHz only (no 5GHz)
+  - App: Works with iOS and Android | Voice: Alexa, Google, Siri/HomeKit
+  - Energy monitoring: Yes
+
+Pricing:
+  - Regular: ₹1,799/pack | Sale: ₹1,349 (25% off)
+  - Buy 2 packs: extra 10% off
+
+Stock: In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - 2.4GHz only — will NOT connect to 5GHz networks. This is the most
+    common setup failure; advise customers proactively.
+  - Max 2300W — not suitable for high-load appliances like geysers/ACs.
+
+--------------------------------------------------------------------------------
+PRODUCT: Portable Bluetooth Speaker (Waterproof)
+SKU: EL-SPK-011
+--------------------------------------------------------------------------------
+Description:
+  A compact 20W waterproof Bluetooth speaker with IPX7 rating, 360° sound,
+  and 24-hour battery. Built-in power bank function.
+
+Variants:
+  Black, Electric Blue, Red, Olive Green
+
+Technical Specifications:
+  - Output: 20W (2×10W) | BT: 5.3 | IPX7 (submerged up to 1m for 30 min)
+  - Battery: 24 hours playback | Charging: USB-C
+  - Power Bank: 10W output via USB-A port | Mic: Built-in for calls
+
+Pricing:
+  - Regular: ₹3,999 | Sale: ₹2,999 (25% off)
+  - Buy 2: 15% off (stereo pair mode supported)
+
+Stock:
+  - Black: In Stock | Electric Blue: In Stock | Red: Low Stock | Olive Green: In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - IPX7 — can be submerged; suitable for pool and beach use.
+  - Two units can be paired for true stereo mode.
+
+--------------------------------------------------------------------------------
+PRODUCT: USB-C Docking Station (9-in-1)
+SKU: EL-DOC-012
+--------------------------------------------------------------------------------
+Description:
+  A 9-in-1 USB-C hub with 4K HDMI, 100W PD pass-through, SD/microSD card
+  readers, 3x USB-A 3.0, USB-C data, and 3.5mm audio. Compatible with all
+  USB-C laptops.
+
+Variants:
+  Space Grey only
+
+Technical Specifications:
+  - Ports: 4K HDMI (60Hz), 100W USB-C PD, 3×USB-A 3.0, USB-C data (5Gbps),
+    SD, microSD, 3.5mm audio
+  - Dims: 13cm × 4.5cm × 1.6cm | Weight: 155g | Cable: 18cm attached
+
+Pricing:
+  - Regular: ₹3,499 | Sale: ₹2,624 (25% off)
+
+Stock: In Stock
+
+Warranty: 18 months
+
+Chatbot Notes:
+  - 100W PD pass-through — charges laptop while all ports are in use.
+  - Not compatible with older USB-A laptops — requires USB-C port.
+
+--------------------------------------------------------------------------------
+PRODUCT: Wireless Charging Pad (15W)
+SKU: EL-WCH-013
+--------------------------------------------------------------------------------
+Description:
+  A slim 15W Qi2-certified wireless charging pad compatible with iPhone,
+  Samsung, and all Qi-enabled devices. LED indicator ring.
+
+Variants:
+  Black, White
+
+Technical Specifications:
+  - Max Output: 15W (Qi2) / 10W (standard Qi) / 7.5W (iPhone fast wireless)
+  - Charging: USB-C input (adapter not included)
+  - Dims: 10cm diameter × 0.8cm | LED ring: yes (can be turned off)
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+  - Buy 2: extra 10% off
+
+Stock: Black — In Stock | White — In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Adapter not included; requires 20W+ USB-C adapter for 15W speeds.
+  - Works through phone cases up to 3mm thick.
+
+--------------------------------------------------------------------------------
+PRODUCT: Smart Home Security Camera (Indoor)
+SKU: EL-CAM-014
+--------------------------------------------------------------------------------
+Description:
+  1080p indoor security camera with two-way audio, motion detection, night
+  vision, and local + cloud storage. Works with Alexa and Google Home.
+
+Variants:
+  White only
+
+Technical Specifications:
+  - Resolution: 1080p FHD | FOV: 130° | Night Vision: IR up to 10m
+  - Two-way audio: Yes | Motion zones: Customisable
+  - Storage: MicroSD up to 128GB (not included) + optional cloud subscription
+  - Wi-Fi: 2.4GHz | Power: USB-C (adapter included)
+
+Pricing:
+  - Camera: ₹2,799 | Sale: ₹2,099 (25% off)
+  - Cloud storage: ₹149/month or ₹1,299/year (optional, not required)
+
+Stock: In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - 2.4GHz only — confirm with customer before purchase.
+  - Cloud storage is optional; MicroSD works as standalone local storage.
+  - NEVER store footage without informing household members — privacy best
+    practice; mention if asked.
+
+--------------------------------------------------------------------------------
+PRODUCT: E-Reader (6-inch, 300 PPI)
+SKU: EL-EBK-015
+--------------------------------------------------------------------------------
+Description:
+  A 6-inch glare-free e-ink display e-reader with 300 PPI, adjustable warm/
+  cool front light, 8GB storage, IPX8 waterproofing, and 6-week battery.
+
+Variants:
+  Black, Sage Green
+
+Technical Specifications:
+  - Display: 6-inch e-ink, 300 PPI | Frontlight: Adjustable warm + cool tone
+  - Storage: 8GB (~6,000 books) | Battery: Up to 6 weeks
+  - Waterproof: IPX8 (2m for 60 min) | Wi-Fi: Yes | BT: Yes (audiobooks)
+  - Formats: EPUB, PDF, MOBI, AZW3, TXT, and more
+
+Pricing:
+  - Regular: ₹10,999 | Sale: ₹8,999 (18% off)
+
+Stock: Black — In Stock | Sage Green — Low Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Not a tablet; no colour display, no apps, no internet browsing.
+  - Supports Bluetooth audio for audiobooks (earbuds/headphones not included).
+
+--------------------------------------------------------------------------------
+PRODUCT: Digital Drawing Tablet (Medium)
+SKU: EL-TAB-016
+--------------------------------------------------------------------------------
+Description:
+  A 10×6 inch graphic drawing tablet with 8192 pressure levels, battery-free
+  stylus, and compatibility with Windows, Mac, Android, and Linux.
+
+Variants:
+  Black only
+
+Technical Specifications:
+  - Active Area: 10×6 inches | Pressure Levels: 8192
+  - Stylus: Battery-free, tilt recognition ±60°
+  - Shortcut keys: 8 customisable | Connection: USB-C
+  - OS: Windows 7+, macOS 10.12+, Android 6.0+, Linux
+
+Pricing:
+  - Regular: ₹4,999 | Sale: ₹3,749 (25% off)
+
+Stock: In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Not a display tablet (no screen on the tablet itself); requires a monitor.
+  - Driver download required from manufacturer website before first use.
+
+--------------------------------------------------------------------------------
+PRODUCT: Noise-Cancelling Sleep Headphones (Headband)
+SKU: EL-SLP-017
+--------------------------------------------------------------------------------
+Description:
+  Ultra-thin speakers embedded in a soft fleece headband. Designed for sleeping,
+  meditation, and travel. Wireless BT 5.2 with 10-hour battery.
+
+Variants:
+  Grey, Black, Pink
+
+Technical Specifications:
+  - Battery: 10 hours | BT: 5.2 | Speaker: 2×thin flat speakers in headband
+  - Charging: Micro-USB | Washable headband: Yes (remove electronics first)
+  - Width: 9cm headband
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+  - Buy 2: extra 10% off
+
+Stock: Grey — In Stock | Black — In Stock | Pink — Low Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Speakers must be removed from headband before washing the fabric.
+  - Not suitable for active workouts — designed for stationary/sleep use.
+
+--------------------------------------------------------------------------------
+PRODUCT: Laser Wireless Mouse (Ergonomic)
+SKU: EL-MOU-018
+--------------------------------------------------------------------------------
+Description:
+  Ergonomic wireless laser mouse with 7 programmable buttons, adjustable DPI
+  (800–4000), silent click, and 18-month battery on a single AA battery.
+
+Variants:
+  Black, Dark Grey, Navy Blue
+
+Technical Specifications:
+  - DPI: 800 / 1200 / 1600 / 2400 / 4000 (adjustable) | Buttons: 7
+  - Connection: USB nano-receiver (2.4GHz) | Battery: 1×AA (~18 months)
+  - Silent click: Yes | Scroll: Dual-mode (smooth + ratchet) | Weight: 101g
+
+Pricing:
+  - Regular: ₹2,299 | Sale: ₹1,724 (25% off)
+
+Stock: Black — In Stock | Dark Grey — In Stock | Navy Blue — Low Stock
+
+Warranty: 2 years
+
+Chatbot Notes:
+  - AA battery included in box.
+  - USB nano-receiver is tiny — advise customers to keep it stored in the
+    mouse's bottom compartment when not in use.
+
+--------------------------------------------------------------------------------
+PRODUCT: Smart Weighing Scale (Body Composition)
+SKU: EL-SCL-019
+--------------------------------------------------------------------------------
+Description:
+  Bluetooth smart scale measuring weight, BMI, body fat %, muscle mass, bone
+  density, and hydration. App sync with iOS and Android. Supports 8 user profiles.
+
+Variants:
+  White, Black
+
+Technical Specifications:
+  - Capacity: 180kg | Accuracy: ±100g | Measurements: 13 body metrics
+  - BT: 5.0 (app: iOS and Android) | Power: 4×AAA batteries (included)
+  - User profiles: 8 simultaneous | Display: LED
+
+Pricing:
+  - Regular: ₹2,999 | Sale: ₹2,249 (25% off)
+
+Stock: White — In Stock | Black — In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Body composition metrics use bioelectrical impedance — results are
+    estimates; advise customers not to use for medical diagnosis.
+  - Not recommended for use by people with pacemakers.
+
+--------------------------------------------------------------------------------
+PRODUCT: Portable Mini Projector (1080p)
+SKU: EL-PRJ-020
+--------------------------------------------------------------------------------
+Description:
+  A palm-sized 1080p native mini projector with built-in Android OS, Wi-Fi,
+  Bluetooth, and auto keystone correction. Projects up to 120 inches.
+
+Variants:
+  White only
+
+Technical Specifications:
+  - Resolution: 1080p native | Brightness: 800 ANSI lumens
+  - Projection: 40–120 inches | OS: Android 11 (apps via APK)
+  - Wi-Fi: 2.4/5GHz dual-band | BT: 5.0 | Ports: HDMI, USB-A, USB-C, 3.5mm
+  - Battery: None (AC powered only) | Lamp Life: 30,000 hours (LED)
+
+Pricing:
+  - Regular: ₹18,999 | Sale: ₹15,199 (20% off)
+
+Stock: In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Best used in dark or semi-dark rooms; 800 lumens is not bright enough
+    for well-lit rooms.
+  - AC powered only — not battery-operated; not truly portable without power.
+  - Google Play not supported; apps via APK sideloading.
+
+
+================================================================================
+CATEGORY 3: HOME & LIFESTYLE (20 Products)
+================================================================================
+
+--------------------------------------------------------------------------------
+PRODUCT: Bamboo Cutting Board Set (3-piece)
+SKU: HL-KIT-001
+--------------------------------------------------------------------------------
+Description:
+  Three bamboo cutting boards (S, M, L) with juice groove on large board.
+  Eco-friendly and knife-friendly. Sold as a set only.
+
+Variants: Natural Bamboo only | Set only (not sold individually)
+
+Material & Care:
+  - 100% Organic Bamboo | Hand wash only; do NOT dishwash
+  - Oil with food-grade mineral oil monthly
+
+Dimensions: S: 20×15×1cm | M: 30×20×1.5cm | L: 40×28×2cm
+
+Pricing:
+  - Regular: ₹1,499 | Sale: ₹1,099 (27% off)
+  - Bundle with HL-UTN-002 Utensil Set: ₹1,799 for both
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Not dishwasher safe — most common complaint; mention proactively.
+  - Naturally antimicrobial.
+
+--------------------------------------------------------------------------------
+PRODUCT: Memory Foam Pillow (Contour Support)
+SKU: HL-BED-002
+--------------------------------------------------------------------------------
+Description:
+  Ergonomic contour memory foam pillow for neck and shoulder alignment.
+  Removable bamboo-cotton cover. For back and side sleepers.
+
+Variants: Standard (60×40×12cm) | Medium-Firm only
+
+Material:
+  - Core: CertiPUR-US memory foam | Cover: 60% Bamboo, 40% Cotton
+  - Hypoallergenic, dust-mite resistant
+
+Pricing:
+  - Regular: ₹3,499 | Sale: ₹2,699 (23% off)
+  - Buy 2: extra 12% off
+
+Stock: In Stock
+
+Warranty / Returns: 30-night sleep trial + 3-year manufacturer warranty
+
+Chatbot Notes:
+  - Off-gassing smell normal; air out 24–48 hours before use.
+  - May be too high for stomach sleepers — mention proactively.
+
+--------------------------------------------------------------------------------
+PRODUCT: Aroma Diffuser & Humidifier (300ml)
+SKU: HL-ARO-003
+--------------------------------------------------------------------------------
+Description:
+  Ultrasonic essential oil diffuser with 7-colour LED, auto shut-off, whisper-
+  quiet, and cool-mist humidifier function. 300ml tank.
+
+Variants: White, Wood Grain
+
+Specs:
+  - Runtime: 8 hrs continuous / 16 hrs intermittent | Coverage: 30 sqm
+  - Noise: <30dB | Power: USB-C (adapter included)
+
+Pricing:
+  - Regular: ₹2,199 | Sale: ₹1,649 (25% off)
+  - Essential Oil Starter Kit (6 oils): ₹799 add-on
+
+Stock: White — In Stock | Wood Grain — Low Stock (12 units)
+
+Chatbot Notes:
+  - Essential oils NOT included.
+  - Use only water + pure essential oils; synthetic fragrance oils void warranty.
+
+--------------------------------------------------------------------------------
+PRODUCT: Stainless Steel Insulated Water Bottle (1 litre)
+SKU: HL-BTL-004
+--------------------------------------------------------------------------------
+Description:
+  Double-wall vacuum insulated 1-litre water bottle. Keeps drinks cold 24 hours
+  and hot 12 hours. Leak-proof lid. BPA-free.
+
+Variants:
+  Matte Black, White, Sage Green, Sky Blue, Terracotta, Blush Pink
+
+Material & Care:
+  - 18/8 Food-grade stainless steel | BPA-free lid
+  - Hand wash recommended; not dishwasher safe (lid)
+  - Do not microwave or freeze
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+  - Buy 2: extra 10% off
+
+Stock:
+  - Matte Black: In Stock | White: In Stock | Sage Green: In Stock
+  - Sky Blue: Low Stock | Terracotta: In Stock | Blush Pink: Low Stock
+
+Warranty: Lifetime warranty against manufacturing defects
+
+Chatbot Notes:
+  - Lid is not dishwasher safe even though the body is technically safe.
+  - Condensation-free exterior due to double-wall vacuum.
+
+--------------------------------------------------------------------------------
+PRODUCT: Bamboo Utensil Set (6-piece)
+SKU: HL-UTN-005
+--------------------------------------------------------------------------------
+Description:
+  A 6-piece bamboo kitchen utensil set including spatula, ladle, slotted spoon,
+  pasta fork, turner, and salad spoon. Heat-resistant to 200°C.
+
+Variants: Natural Bamboo only
+
+Material & Care:
+  - 100% Organic Bamboo | Hand wash only; dry immediately; oil monthly
+
+Pricing:
+  - Regular: ₹899 | Sale: ₹674 (25% off)
+  - Bundle with HL-KIT-001 Cutting Board Set: ₹1,799 for both (save ₹374)
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Not dishwasher safe — bamboo will crack and warp.
+  - Heat-resistant but not for use with open flames.
+
+--------------------------------------------------------------------------------
+PRODUCT: Non-Stick Cookware Set (5-piece)
+SKU: HL-CWR-006
+--------------------------------------------------------------------------------
+Description:
+  A 5-piece non-stick cookware set: 20cm frypan, 24cm frypan, 20cm saucepan
+  with lid, 24cm sauté pan with lid. PFOA-free coating. Induction compatible.
+
+Variants: Charcoal Grey, Red
+
+Material & Care:
+  - Body: Forged aluminium | Coating: PFOA-free non-stick
+  - Induction, gas, ceramic, electric compatible
+  - Hand wash recommended; avoid metal utensils; dishwasher safe (but reduces
+    coating life)
+
+Pricing:
+  - Regular: ₹5,999 | Sale: ₹4,499 (25% off)
+  - No additional bulk discount
+
+Stock: Charcoal Grey — In Stock | Red — Low Stock
+
+Warranty: 2 years (coating not covered under warranty if metal utensils used)
+
+Chatbot Notes:
+  - PFOA-free — safe for family cooking.
+  - Metal utensils will damage the coating and void the coating warranty.
+
+--------------------------------------------------------------------------------
+PRODUCT: Electric Kettle (1.7 litre, Temperature Control)
+SKU: HL-KTL-007
+--------------------------------------------------------------------------------
+Description:
+  A 1.7-litre stainless steel electric kettle with 5 preset temperatures
+  (60°C, 70°C, 80°C, 90°C, 100°C), 30-min keep-warm, and auto shut-off.
+
+Variants: Matte Black, Silver
+
+Technical Specifications:
+  - Capacity: 1.7L | Power: 2200W | Temperatures: 5 presets
+  - Keep-warm: 30 minutes | Boil dry protection: Yes
+  - Inner: Food-grade stainless steel (no plastic contact with water)
+
+Pricing:
+  - Regular: ₹2,999 | Sale: ₹2,249 (25% off)
+
+Stock: Matte Black — In Stock | Silver — In Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Temperature control is great for green/white tea drinkers (70–80°C).
+  - Inner lining is stainless steel — no plastic taste in water.
+
+--------------------------------------------------------------------------------
+PRODUCT: Air Purifier (HEPA H13, 400 sqft)
+SKU: HL-AIR-008
+--------------------------------------------------------------------------------
+Description:
+  A 4-stage air purifier (pre-filter, H13 HEPA, activated carbon, UV-C) for
+  rooms up to 400 sqft. CADR 250 m³/h, auto mode, sleep mode, air quality
+  indicator.
+
+Variants: White only
+
+Technical Specifications:
+  - Filter: H13 True HEPA + activated carbon + pre-filter + UV-C
+  - CADR: 250 m³/h | Coverage: up to 400 sqft | Noise: 22dB (sleep mode)
+  - Filter life: ~6 months (replacement filter: ₹999, SKU: HL-FLT-008A)
+  - Auto mode: uses built-in PM2.5 sensor
+
+Pricing:
+  - Regular: ₹9,999 | Sale: ₹7,999 (20% off)
+  - Replacement filter bundle (3 filters): ₹2,499
+
+Stock: In Stock
+
+Warranty: 2 years (filter not covered)
+
+Chatbot Notes:
+  - Filter replacement every ~6 months; remind customers to stock up.
+  - UV-C lamp is optional — can be switched off independently.
+
+--------------------------------------------------------------------------------
+PRODUCT: Bedside Table Lamp (Touch Dimmer)
+SKU: HL-LMP-009
+--------------------------------------------------------------------------------
+Description:
+  A modern ceramic base bedside lamp with 3-level touch dimmer (warm 3000K
+  light), fabric drum shade, and USB-A charging port on base.
+
+Variants: White/Cream, Sage/Natural, Black/Black
+
+Material:
+  - Base: Ceramic | Shade: Cotton fabric | Bulb: LED G45 (included, 8W, 2700K)
+
+Pricing:
+  - Regular: ₹2,499 | Sale: ₹1,874 (25% off)
+  - Buy 2 (pair for bedside): extra 10% off
+
+Stock: White/Cream — In Stock | Sage/Natural — In Stock | Black/Black — Low Stock
+
+Warranty: 1 year (bulb: 2 years)
+
+Chatbot Notes:
+  - E27 bulb socket — customer can replace with any E27 LED bulb.
+  - USB-A on base is 5W — suitable for overnight phone charging.
+
+--------------------------------------------------------------------------------
+PRODUCT: Weighted Blanket (7kg, Single)
+SKU: HL-BLK-010
+--------------------------------------------------------------------------------
+Description:
+  A 7kg weighted blanket for single-use (150×200cm). Glass bead fill distributed
+  in individual pockets. Cotton cover, machine washable.
+
+Variants:
+  - Weight: 7kg (single) | 10kg (double) — 10kg: SKU HL-BLK-010B
+  - Colour: Grey, Navy, Blush Pink
+
+Material & Care:
+  - Cover: 100% Cotton | Fill: Non-toxic glass micro-beads (sewn in pockets)
+  - Machine washable (gentle cold); tumble dry low; do not dry clean
+
+Pricing:
+  - 7kg Single: Regular ₹4,999 | Sale: ₹3,749 (25% off)
+  - 10kg Double: Regular ₹6,999 | Sale: ₹5,249 (25% off)
+
+Stock: Grey — In Stock | Navy — In Stock | Blush Pink — Low Stock
+
+Warranty: 2 years
+
+Chatbot Notes:
+  - Not recommended for children under 3 or anyone with respiratory conditions
+    without consulting a doctor.
+  - 7kg is recommended for adults 55–90kg body weight.
+
+--------------------------------------------------------------------------------
+PRODUCT: Yoga Mat with Carry Strap (6mm, Non-slip)
+SKU: HL-YGA-011
+--------------------------------------------------------------------------------
+Description:
+  A 6mm thick non-slip yoga mat with alignment lines, moisture-wicking surface,
+  and a carry strap. Suitable for yoga, pilates, and stretching.
+
+Variants:
+  - Colour: Purple, Teal, Black, Coral, Grey
+  - Thickness: 6mm only (also available in 4mm: SKU HL-YGA-011B)
+
+Material & Care:
+  - TPE (Thermoplastic Elastomer) — eco-friendly, latex-free, odour-free
+  - Wipe clean with damp cloth + mild soap; do not machine wash; air dry
+
+Dimensions: 183×61×0.6cm | Weight: 1.1kg
+
+Pricing:
+  - Regular: ₹1,499 | Sale: ₹1,124 (25% off)
+
+Stock: Purple — In Stock | Teal — In Stock | Black — In Stock
+       Coral — Low Stock | Grey — In Stock
+
+Chatbot Notes:
+  - Latex-free — safe for latex-allergy customers.
+  - Alignment lines help beginners maintain proper pose positioning.
+
+--------------------------------------------------------------------------------
+PRODUCT: Resistance Band Set (5-band)
+SKU: HL-FIT-012
+--------------------------------------------------------------------------------
+Description:
+  A set of 5 loop resistance bands in graduated resistance levels. Suitable for
+  strength training, physiotherapy, and glute activation.
+
+Variants:
+  - Resistance levels: Yellow (8kg), Red (12kg), Green (17kg), Blue (22kg), Black (27kg)
+  - All 5 included in one set | Carry bag included
+
+Material & Care:
+  - 100% Natural Latex | Wipe clean; store in carry bag; avoid direct sunlight
+
+Pricing:
+  - Regular: ₹999 | Sale: ₹749 (25% off)
+  - Buy 2 sets: extra 10% off
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Natural latex — NOT suitable for customers with latex allergies.
+  - Replace bands if cracks or tears develop to avoid snapping during use.
+
+--------------------------------------------------------------------------------
+PRODUCT: Foldable Drying Rack (Stainless Steel)
+SKU: HL-DRY-013
+--------------------------------------------------------------------------------
+Description:
+  A 3-tier foldable stainless steel drying rack with 24 bars. Rust-resistant.
+  Folds flat for storage. Suitable for indoor and outdoor use.
+
+Variants: Silver only
+
+Material:
+  - Frame: 304 Stainless Steel (rust-resistant) | Joints: ABS plastic
+
+Dimensions (open): 88×46×96cm | Folded: 88×10×96cm | Load: 20kg max
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+
+Stock: In Stock
+
+Warranty: 2 years against rust/structural defects
+
+Chatbot Notes:
+  - If customer sees rust: only stainless frame is covered; plastic joints
+    discolouration is not a defect.
+  - Not for use in heavy rain (despite being rust-resistant, prolonged
+    outdoor exposure is not recommended).
+
+--------------------------------------------------------------------------------
+PRODUCT: Scented Soy Wax Candle Set (3-piece)
+SKU: HL-CND-014
+--------------------------------------------------------------------------------
+Description:
+  A gift-ready set of three 150g soy wax candles in hand-poured glass jars with
+  wooden wicks. Cotton-free, paraben-free fragrance.
+
+Variants (scent sets):
+  - Set A: Lavender + Vanilla + Sandalwood
+  - Set B: Cedarwood + Amber + Bergamot
+  - Set C: Rose + Jasmine + White Musk
+
+Material:
+  - Wax: 100% Soy Wax | Wick: Wooden (crackle effect) | Jar: Reusable glass
+  - Burn time: ~40 hours per candle | Fragrance: Paraben-free, phthalate-free
+
+Pricing:
+  - Regular: ₹1,999/set | Sale: ₹1,499 (25% off)
+  - Buy 2 sets: extra 10% off
+
+Stock: Set A — In Stock | Set B — In Stock | Set C — Low Stock
+
+Chatbot Notes:
+  - Wooden wick may need re-trimming to 5mm before each use for best burn.
+  - Glass jars are reusable — mention as eco-friendly selling point.
+
+--------------------------------------------------------------------------------
+PRODUCT: Modular Storage Cube Organiser (Set of 6)
+SKU: HL-STG-015
+--------------------------------------------------------------------------------
+Description:
+  Six stackable fabric storage cubes for wardrobes, shelves, and closets.
+  Foldable when not in use. Non-woven fabric with handles.
+
+Variants:
+  - Colour: Grey, Beige, Navy, Blush Pink
+  - Size: 30×30×30cm each | Set of 6
+
+Material & Care:
+  - Non-woven polypropylene | Spot clean only; do not wash or soak
+
+Pricing:
+  - Regular: ₹1,299/set | Sale: ₹974 (25% off)
+  - Buy 2 sets: extra 10% off
+
+Stock: Grey — In Stock | Beige — In Stock | Navy — In Stock | Blush Pink — Low Stock
+
+Chatbot Notes:
+  - Recommended load: up to 5kg per cube.
+  - Not waterproof — not for bathroom use.
+
+--------------------------------------------------------------------------------
+PRODUCT: Cast Iron Skillet (26cm)
+SKU: HL-SKL-016
+--------------------------------------------------------------------------------
+Description:
+  A pre-seasoned 26cm cast iron skillet compatible with all cooktops including
+  induction. Builds better non-stick seasoning with use.
+
+Variants: One variant only | Helper handle included
+
+Material & Care:
+  - Pre-seasoned cast iron | Hand wash with mild soap; dry immediately; apply
+    thin oil layer after each wash; do not soak in water
+
+Weight: 2.8kg | Compatible: Gas, induction, electric, oven-safe up to 260°C
+
+Pricing:
+  - Regular: ₹2,799 | Sale: ₹2,099 (25% off)
+
+Stock: In Stock
+
+Warranty: Lifetime (cast iron does not wear out with proper care)
+
+Chatbot Notes:
+  - Heavy at 2.8kg — mention to customers who ask about ease of use.
+  - Pre-seasoned but not fully non-stick out of box; improves with use.
+  - Rusting after soaking in water is common and can be recovered by
+    re-seasoning — provide care guide link.
+
+--------------------------------------------------------------------------------
+PRODUCT: Cordless Handheld Vacuum Cleaner
+SKU: HL-VAC-017
+--------------------------------------------------------------------------------
+Description:
+  A lightweight cordless handheld vacuum (600W, 22.2V) with 25-minute runtime,
+  multi-surface brush, crevice tool, and wall-mount charging dock.
+
+Variants: White, Black
+
+Technical Specifications:
+  - Suction: 8000Pa | Runtime: 25 min | Charge time: 3.5 hours
+  - Filter: HEPA | Tank: 0.6L dustbin (bagless) | Weight: 1.2kg
+
+Pricing:
+  - Regular: ₹4,499 | Sale: ₹3,374 (25% off)
+
+Stock: White — In Stock | Black — In Stock
+
+Warranty: 1 year (battery: 6 months)
+
+Chatbot Notes:
+  - 25-min runtime at full suction; lower modes extend runtime.
+  - Not suitable for large floor areas — designed for spot cleaning, car
+    interiors, upholstery.
+
+--------------------------------------------------------------------------------
+PRODUCT: Portable Air Humidifier (1.5 litre, Ultrasonic)
+SKU: HL-HMD-018
+--------------------------------------------------------------------------------
+Description:
+  A 1.5-litre ultrasonic cool-mist humidifier with 360° mist nozzle, touch
+  control, 3 mist levels, and up to 20-hour runtime. Quiet for bedroom use.
+
+Variants: White, Mint Green
+
+Technical Specifications:
+  - Tank: 1.5L | Runtime: Up to 20 hours (low mist) | Coverage: 25 sqm
+  - Noise: <30dB | Auto shut-off: Yes | Mist levels: 3 | Power: USB-C
+
+Pricing:
+  - Regular: ₹1,699 | Sale: ₹1,274 (25% off)
+
+Stock: White — In Stock | Mint Green — Low Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Use distilled or filtered water to prevent white mineral dust deposits.
+  - Clean the tank weekly to prevent mould build-up.
+
+--------------------------------------------------------------------------------
+PRODUCT: Blackout Curtains (Set of 2, 5ft Drop)
+SKU: HL-CRT-019
+--------------------------------------------------------------------------------
+Description:
+  Thermal blackout curtains blocking 99% light and reducing noise and room
+  temperature. Machine washable. Sold in pairs (2 panels).
+
+Variants:
+  - Colour: Grey, Navy, Cream, Charcoal, Blush Pink
+  - Sizes: Width 52" × Drop 84" (5ft) | Width 52" × Drop 96" (7ft)
+  - Hanging: Rod pocket (rod not included)
+
+Material & Care:
+  - 100% Polyester triple-weave | Machine wash cold; tumble dry low; iron low
+
+Pricing:
+  - 84" drop: Regular ₹2,499/pair | Sale: ₹1,874 (25% off)
+  - 96" drop: Regular ₹2,999/pair | Sale: ₹2,249 (25% off)
+
+Stock: All colours — In Stock (both sizes)
+
+Chatbot Notes:
+  - Rod not included; standard curtain rods up to 32mm diameter compatible.
+  - "Blackout" means 99% light block, not 100% — light may edge around gaps
+    between curtain and wall.
+
+--------------------------------------------------------------------------------
+PRODUCT: Aromatherapy Shower Steamers (Set of 8)
+SKU: HL-SPA-020
+--------------------------------------------------------------------------------
+Description:
+  Eight fizzing shower steamers infused with essential oils. Place on shower
+  floor for a spa-like aromatherapy experience. No bath needed.
+
+Variants (scent sets):
+  - Refresh: Eucalyptus + Peppermint
+  - Calm: Lavender + Chamomile
+  - Energise: Citrus + Ginger
+  - Mixed (2 of each above): all 3 scents
+
+Material:
+  - Baking soda, citric acid, essential oils, cocoa butter (no synthetic dyes)
+  - Vegan, cruelty-free, plastic-free packaging
+
+Pricing:
+  - Any set: Regular ₹999 | Sale: ₹749 (25% off)
+  - Buy 2 sets: extra 10% off
+
+Stock: All variants — In Stock
+
+Chatbot Notes:
+  - Not for use in bath water (not bath bombs).
+  - Keep dry and away from humidity until use; each steamer lasts one shower.
+
+
+================================================================================
+CATEGORY 4: BEAUTY & WELLNESS (20 Products)
+================================================================================
+
+--------------------------------------------------------------------------------
+PRODUCT: Vitamin C Brightening Serum (30ml)
+SKU: BW-SKN-001
+--------------------------------------------------------------------------------
+Description:
+  Lightweight serum with 15% L-Ascorbic Acid, Niacinamide, and Hyaluronic Acid.
+  Targets dark spots, dullness, and uneven tone.
+
+Variants: 30ml only | Single formulation
+
+Key Ingredients:
+  15% Vitamin C, 2% Niacinamide, Hyaluronic Acid, Ferulic Acid
+  Free from: Parabens, Sulphates, Fragrance, Alcohol
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+  - Subscribe & Save: ₹1,199/month
+
+Stock: In Stock | Shelf life: 12 months unopened / 6 months after opening
+
+Chatbot Notes:
+  - Patch test for sensitive skin.
+  - Do not mix with Retinol in same routine.
+  - Pregnancy: advise consulting a doctor.
+
+--------------------------------------------------------------------------------
+PRODUCT: Bamboo Activated Charcoal Toothbrush (Pack of 4)
+SKU: BW-ORL-002
+--------------------------------------------------------------------------------
+Description:
+  Eco-friendly toothbrushes with bamboo handles and BPA-free activated charcoal
+  bristles. Pack of 4 (2 soft, 2 medium).
+
+Material:
+  - Handle: 100% Moso Bamboo (biodegradable)
+  - Bristles: BPA-free nylon with activated charcoal (bristles not biodegradable)
+
+Pricing:
+  - Regular: ₹699 | Sale: ₹499 (29% off)
+  - Subscribe & Save: ₹429/pack (every 3 months)
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Remove bristles from handle before composting the bamboo.
+  - Not ADA-certified; BPA-free and dentist-friendly design.
+
+--------------------------------------------------------------------------------
+PRODUCT: Cold & Hot Therapy Eye Mask
+SKU: BW-EYE-003
+--------------------------------------------------------------------------------
+Description:
+  Reusable gel eye mask for hot and cold therapy. Helps with puffiness, dark
+  circles, migraines, and eye strain.
+
+Variants: Lavender, Charcoal Grey | One size fits all
+
+Material:
+  - Outer: Soft fleece | Inner: Non-toxic gel beads | Latex-free, fragrance-free
+
+Pricing:
+  - Regular: ₹999 | Sale: ₹749 (25% off)
+  - Buy 2: extra 10% off
+
+Stock: Lavender — In Stock | Charcoal Grey — In Stock
+
+Chatbot Notes:
+  - Not a medical device.
+  - Microwave 10 seconds; always test temperature before applying.
+
+--------------------------------------------------------------------------------
+PRODUCT: Hyaluronic Acid Moisturiser (50ml)
+SKU: BW-SKN-004
+--------------------------------------------------------------------------------
+Description:
+  A lightweight, oil-free gel moisturiser with 5 types of Hyaluronic Acid for
+  deep and surface hydration. Suitable for all skin types including oily.
+
+Variants: 50ml only
+
+Key Ingredients:
+  - Multi-weight Hyaluronic Acid (5 types), Aloe Vera, Niacinamide, Panthenol
+  - Free from: Parabens, Sulphates, Mineral Oil, Artificial Fragrance
+
+How to Use:
+  - Apply morning and night to cleansed face; suitable under SPF and makeup
+
+Pricing:
+  - Regular: ₹1,499 | Sale: ₹1,124 (25% off)
+  - Subscribe & Save: ₹999/month
+
+Stock: In Stock | Shelf life: 12 months unopened / 9 months after opening
+
+Chatbot Notes:
+  - Apply to damp skin for best results (HA draws in ambient moisture).
+  - Oil-free — suitable for acne-prone skin.
+
+--------------------------------------------------------------------------------
+PRODUCT: Retinol Night Cream (30ml)
+SKU: BW-SKN-005
+--------------------------------------------------------------------------------
+Description:
+  An encapsulated 0.3% Retinol night cream for skin renewal, fine line
+  reduction, and improved texture. Buffered formula for reduced irritation.
+
+Variants: 30ml only
+
+Key Ingredients:
+  - 0.3% Encapsulated Retinol, Squalane, Ceramides, Peptides
+  - Free from: Parabens, Sulphates, Fragrance
+
+How to Use:
+  - PM only; apply pea-sized amount to face after serum; follow with moisturiser
+  - Begin 2×/week; increase gradually as skin adjusts
+  - Always use SPF the next morning
+
+Pricing:
+  - Regular: ₹1,999 | Sale: ₹1,499 (25% off)
+
+Stock: In Stock | Shelf life: 12 months unopened / 6 months after opening
+
+Chatbot Notes:
+  - NOT for use during pregnancy — advise consulting a doctor.
+  - Purging (temporary breakouts) can occur in first 2–4 weeks — normal.
+  - Do NOT use same evening as AHA/BHA exfoliants.
+
+--------------------------------------------------------------------------------
+PRODUCT: SPF 50 PA++++ Sunscreen (50ml)
+SKU: BW-SPF-006
+--------------------------------------------------------------------------------
+Description:
+  A lightweight, non-greasy SPF 50 PA++++ mineral-chemical hybrid sunscreen.
+  Invisible finish, suitable for all skin tones including deeper skin tones.
+
+Variants: 50ml | One formulation (universal tint-free)
+
+Key Ingredients:
+  - Zinc Oxide 10%, Tinosorb M, Niacinamide, Glycerin
+  - Free from: Parabens, Oxybenzone, Artificial Fragrance, White Cast
+
+How to Use:
+  - Apply as last skincare step, 15 min before sun exposure; reapply every 2hrs
+
+Pricing:
+  - Regular: ₹1,299 | Sale: ₹974 (25% off)
+  - Subscribe & Save: ₹849/month
+
+Stock: In Stock
+
+Chatbot Notes:
+  - PA++++ is the highest UVA protection rating.
+  - No white cast — suitable for deeper skin tones (common concern; address
+    proactively).
+
+--------------------------------------------------------------------------------
+PRODUCT: Jade Gua Sha & Face Roller Set
+SKU: BW-GUA-007
+--------------------------------------------------------------------------------
+Description:
+  Authentic jade gua sha tool and dual-end face roller (jade + rose quartz) for
+  facial massage, lymphatic drainage, and product absorption.
+
+Variants:
+  - Jade (green) + Rose Quartz (pink) — sold as a set
+
+Material:
+  - 100% Natural Jade and Rose Quartz | Metal roller handle: Stainless steel
+
+How to Use:
+  - Apply facial oil/serum first; use roller and gua sha upward/outward
+  - Clean with damp cloth after each use; do not soak in water
+
+Pricing:
+  - Regular: ₹1,499 | Sale: ₹1,124 (25% off)
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Not for use over active acne, broken skin, or sunburned skin.
+  - Store in fridge for extra de-puffing effect (natural stones stay cool).
+
+--------------------------------------------------------------------------------
+PRODUCT: Micellar Water Cleansing Solution (200ml)
+SKU: BW-CLS-008
+--------------------------------------------------------------------------------
+Description:
+  A gentle no-rinse micellar water that removes makeup, SPF, and impurities
+  without stripping the skin's moisture barrier.
+
+Variants: 200ml | One formulation
+
+Key Ingredients:
+  - Micelles, Glycerin, Panthenol, Allantoin
+  - Free from: Alcohol, Fragrance, Parabens, Sulphates
+
+How to Use:
+  - Saturate cotton pad; press gently on eyes/face; wipe away — no rinsing needed
+  - Can be used as first cleanse before foaming cleanser
+
+Pricing:
+  - Regular: ₹799 | Sale: ₹599 (25% off)
+  - Subscribe & Save: ₹499/month
+
+Stock: In Stock | Shelf life: 24 months unopened / 12 months after opening
+
+Chatbot Notes:
+  - Alcohol-free — suitable for sensitive and dry skin.
+  - Safe for contact lens wearers (remove lenses first before eye area cleanse).
+
+--------------------------------------------------------------------------------
+PRODUCT: Charcoal & Clay Detox Face Mask (100ml)
+SKU: BW-MSK-009
+--------------------------------------------------------------------------------
+Description:
+  A deep-cleansing kaolin clay and activated charcoal mask for pore tightening,
+  excess oil removal, and skin detox. Suitable for oily and combination skin.
+
+Variants: 100ml tube | One formulation
+
+Key Ingredients:
+  - Kaolin Clay, Activated Charcoal, Witch Hazel, Tea Tree Oil
+  - Free from: Parabens, Sulphates, Artificial Dyes
+
+How to Use:
+  - Apply thin layer to clean face; leave 10–15 min; rinse thoroughly
+  - Use 1–2 times per week; follow with moisturiser
+
+Pricing:
+  - Regular: ₹999 | Sale: ₹749 (25% off)
+
+Stock: In Stock | Shelf life: 18 months unopened / 12 months after opening
+
+Chatbot Notes:
+  - Not recommended for dry or sensitive skin types without patch testing.
+  - Do not leave on longer than 15 minutes — over-drying can cause irritation.
+
+--------------------------------------------------------------------------------
+PRODUCT: Hair Growth Serum (60ml)
+SKU: BW-HR-010
+--------------------------------------------------------------------------------
+Description:
+  A scalp serum with 5% Redensyl, Biotin, Caffeine, and Niacinamide to support
+  hair density and reduce shedding. For thinning hair.
+
+Variants: 60ml dropper bottle | One formulation
+
+Key Ingredients:
+  - 5% Redensyl, Caffeine, Biotin, Niacinamide, Saw Palmetto Extract
+  - Free from: Parabens, Sulphates, Mineral Oil
+
+How to Use:
+  - Apply 1ml to scalp, part by part, 3×/week; do not rinse; massage gently
+  - Visible results expected in 8–12 weeks of consistent use
+
+Pricing:
+  - Regular: ₹1,799 | Sale: ₹1,349 (25% off)
+  - Subscribe & Save: ₹1,149/month
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Results require 8–12 weeks — set realistic expectations upfront.
+  - Not a replacement for medical treatment for diagnosed alopecia; advise
+    consulting a dermatologist for significant hair loss.
+
+--------------------------------------------------------------------------------
+PRODUCT: Kojic Acid & Niacinamide Body Lotion (200ml)
+SKU: BW-BDY-011
+--------------------------------------------------------------------------------
+Description:
+  A brightening body lotion with Kojic Acid, Niacinamide, and Shea Butter
+  targeting body hyperpigmentation, uneven tone, and dark patches.
+
+Variants: 200ml pump bottle | One formulation
+
+Key Ingredients:
+  - Kojic Acid (brightening), Niacinamide (tone-evening), Shea Butter (nourishing)
+  - Free from: Parabens, Sulphates, Artificial Fragrance, Steroids
+
+How to Use:
+  - Apply twice daily on clean skin; use SPF on exposed areas during daytime
+
+Pricing:
+  - Regular: ₹1,299 | Sale: ₹974 (25% off)
+  - Subscribe & Save: ₹849/month
+
+Stock: In Stock | Shelf life: 18 months unopened / 12 months after opening
+
+Chatbot Notes:
+  - Steroid-free — important differentiator vs many local brightening creams.
+  - Patch test for sensitive skin before full application.
+
+--------------------------------------------------------------------------------
+PRODUCT: Lip Care Kit (SPF 30 Balm + Overnight Mask)
+SKU: BW-LIP-012
+--------------------------------------------------------------------------------
+Description:
+  A two-piece lip care kit: SPF 30 tinted lip balm (daytime) + hydrating
+  overnight lip mask (night). For chapped, dry, or pigmented lips.
+
+Variants:
+  - Balm: Tinted (Pink Nude) or Clear | Mask: One variant (translucent)
+  - Sold as a kit; can be purchased separately (balm SKU: BW-LIP-012A)
+
+Key Ingredients:
+  - Balm: Shea Butter, SPF 30, Vitamin E | Mask: Hyaluronic Acid, Ceramides,
+    Honey Extract, Peptides
+
+Pricing:
+  - Kit: Regular ₹999 | Sale: ₹749 (25% off)
+  - Balm only: ₹449 | Mask only: ₹599
+
+Stock: Kit — In Stock | Balm — In Stock | Mask — Low Stock
+
+Chatbot Notes:
+  - SPF in the balm is not a substitute for full face SPF.
+  - Mask is safe to lick off — food-grade ingredients.
+
+--------------------------------------------------------------------------------
+PRODUCT: Electric Face Cleanser Brush
+SKU: BW-DEV-013
+--------------------------------------------------------------------------------
+Description:
+  A silicone facial cleansing brush with sonic vibration (6000 vibrations/min),
+  2 speed settings, waterproof (IPX7), and USB magnetic charging.
+
+Variants: Pink, White, Black
+
+Technical Specifications:
+  - Vibrations: 6000/min | Speeds: 2 | IPX7 waterproof
+  - Charging: Magnetic USB (adapter not included) | Battery life: 30 uses per charge
+  - Material: Medical-grade silicone brush head
+
+Pricing:
+  - Regular: ₹1,999 | Sale: ₹1,499 (25% off)
+
+Stock: Pink — In Stock | White — In Stock | Black — Low Stock
+
+Warranty: 1 year
+
+Chatbot Notes:
+  - Silicone bristles are more hygienic than nylon (no mould risk); advise
+    customers comparing vs nylon cleansing brushes.
+  - Works without cleanser — can use with water only.
+
+--------------------------------------------------------------------------------
+PRODUCT: Vitamin E Body Oil (100ml)
+SKU: BW-OIL-014
+--------------------------------------------------------------------------------
+Description:
+  A multi-purpose dry body oil blend with Vitamin E, Rosehip, and Sweet Almond
+  Oil for deep nourishment, stretch marks, and skin elasticity.
+
+Variants: 100ml glass bottle | One formulation
+
+Key Ingredients:
+  - Vitamin E (tocopherol), Rosehip Oil, Sweet Almond Oil, Jojoba Oil
+  - Free from: Parabens, Mineral Oil, Silicones, Artificial Fragrance
+
+How to Use:
+  - Apply to damp skin after shower; massage in circular motions; absorbs in 3–5 min
+
+Pricing:
+  - Regular: ₹1,499 | Sale: ₹1,124 (25% off)
+  - Buy 2: extra 10% off
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Safe for pregnancy use (consult doctor for Rosehip if on retinoids).
+  - Tree nut derived (Sweet Almond) — advise customers with nut allergies to
+    patch test or avoid.
+
+--------------------------------------------------------------------------------
+PRODUCT: Makeup Remover Reusable Pads (Set of 20)
+SKU: BW-CLS-015
+--------------------------------------------------------------------------------
+Description:
+  Set of 20 reusable cotton makeup remover pads. Machine washable in laundry
+  bag (included). Eco-friendly alternative to disposable cotton pads.
+
+Variants:
+  - Colour: White only | Set of 20 pads + 1 mesh laundry bag
+
+Material & Care:
+  - 70% Organic Cotton, 30% Bamboo | Machine washable; do not use bleach
+
+Pricing:
+  - Regular: ₹799 | Sale: ₹599 (25% off)
+  - Buy 2 sets: extra 10% off
+
+Stock: In Stock
+
+Chatbot Notes:
+  - Washable up to 1000 times; cost-per-use far lower than disposables.
+  - Use laundry bag to prevent pads getting lost in wash.
+
+--------------------------------------------------------------------------------
+PRODUCT: Derma Roller (0.5mm, Titanium)
+SKU: BW-DEV-016
+--------------------------------------------------------------------------------
+Description:
+  A 0.5mm titanium micro-needling derma roller for improving product absorption,
+  skin texture, and collagen stimulation. 540 needles.
+
+Variants:
+  - Needle size: 0.5mm only (for home use)
+  - Storage case included
+
+Material:
+  - Needles: Titanium | Roller head: ABS plastic | Handle: PP
+
+Pricing:
+  - Regular: ₹1,299 | Sale: ₹974 (25% off)
+
+Stock: In Stock
+
+Chatbot Notes:
+  - STRICT contraindications: do not use on active acne, rosacea, open wounds,
+    or eczema. Advise patch test first.
+  - Replace roller after 3 months or if needles appear dull.
+  - Sanitise with 70% isopropyl alcohol before each use.
+  - Not for use around eye area.
+
+--------------------------------------------------------------------------------
+PRODUCT: Lavender Epsom Salt Soak (1kg)
+SKU: BW-BTH-017
+--------------------------------------------------------------------------------
+Description:
+  Pure Magnesium Sulphate (Epsom Salt) infused with lavender essential oil for
+  muscle relaxation, stress relief, and sleep support. 1kg resealable bag.
+
+Variants:
+  - Lavender (most popular), Eucalyptus, Fragrance-free
+  - Size: 1kg (also 500g: SKU BW-BTH-017S)
+
+Material: USP Grade Magnesium Sulphate + pure essential oils (no synthetic dyes)
+
+How to Use:
+  - Add 1–2 cups to warm bath; soak 20 min; do not rinse off
+
+Pricing:
+  - 1kg: Regular ₹899 | Sale: ₹674 (25% off)
+  - 500g: ₹499 | Sale: ₹374
+
+Stock: Lavender 1kg — In Stock | Eucalyptus 1kg — In Stock
+       Fragrance-free 1kg — Low Stock | All 500g variants: In Stock
+
+Chatbot Notes:
+  - Not for use with open wounds or immediately post-waxing/shaving.
+  - Magnesium absorption via skin is mild — do not claim medical benefits.
+
+--------------------------------------------------------------------------------
+PRODUCT: Natural Deodorant Stick (Aluminium-free)
+SKU: BW-DEO-018
+--------------------------------------------------------------------------------
+Description:
+  An aluminium-free natural deodorant with Magnesium Hydroxide, Shea Butter,
+  and Arrowroot. Provides 24-hour odour protection without blocking pores.
+
+Variants:
+  - Scent: Lavender & Sage, Citrus & Mint, Fragrance-free, Sandalwood & Cedar
+  - Size: 75g stick
+
+Key Ingredients:
+  - Magnesium Hydroxide (odour neutraliser), Shea Butter, Arrowroot Powder,
+    Coconut Oil, Beeswax
+  - Free from: Aluminium, Parabens, Alcohol, Artificial Fragrance (in unscented)
+
+Pricing:
+  - Regular: ₹799 | Sale: ₹599 (25% off)
+  - Subscribe & Save: ₹499/month
+
+Stock: All variants — In Stock
+
+Chatbot Notes:
+  - Aluminium-free = not an antiperspirant. Will not stop sweating, only odour.
+  - Transition period of 2–4 weeks possible when switching from antiperspirant.
+  - Contains beeswax — not vegan; fragrance-free variant also not vegan.
+
+--------------------------------------------------------------------------------
+PRODUCT: Collagen Peptide Powder (300g, Unflavoured)
+SKU: BW-SUP-019
+--------------------------------------------------------------------------------
+Description:
+  Hydrolysed marine collagen peptide powder (Types I & III) for skin, hair,
+  nail, and joint support. Unflavoured, dissolves in hot and cold liquids.
+
+Variants:
+  - 300g (30-day supply) | Unflavoured only
+
+Key Ingredients:
+  - Marine Collagen Peptides (from deep-sea fish) | 10g collagen per serving
+  - Free from: Artificial additives, Fillers, Gluten, Soy
+
+How to Use:
+  - Mix 1 scoop (10g) daily into coffee, smoothie, or water
+
+Pricing:
+  - Regular: ₹2,499 | Sale: ₹1,874 (25% off)
+  - Subscribe & Save: ₹1,599/month
+
+Stock: In Stock | Shelf life: 24 months unopened / 6 months after opening
+
+Chatbot Notes:
+  - Marine (fish-derived) — NOT suitable for vegans or pescatarian-restricting
+    customers.
+  - Not suitable for fish allergy sufferers.
+  - Pregnancy: advise consulting a doctor before use.
+
+--------------------------------------------------------------------------------
+PRODUCT: Menstrual Cup (Size S + Size L Combo)
+SKU: BW-FEM-020
+--------------------------------------------------------------------------------
+Description:
+  Medical-grade silicone menstrual cups in small and large size. Reusable for
+  up to 10 years, holds 3x more than a tampon, and can be worn up to 12 hours.
+
+Variants:
+  - Sold as a combo (S + L) | Also sold individually: S (SKU BW-FEM-020S), L (BW-FEM-020L)
+  - Colour: Clear (one variant)
+
+Material:
+  - 100% Medical-grade silicone | BPA-free, latex-free, dye-free
+
+Sizing Guide:
+  - Size S: Recommended for under 30 or light-to-medium flow
+  - Size L: Recommended for over 30 or post-childbirth or heavy flow
+
+Pricing:
+  - Combo (S+L): Regular ₹1,499 | Sale: ₹1,124 (25% off)
+  - Size S or L individually: ₹799 each | Sale: ₹599
+
+Stock: Combo — In Stock | Size S — In Stock | Size L — Low Stock
+
+Warranty: No warranty (consumable/personal hygiene item) | Returns not accepted
+          for hygiene reasons
+
+Chatbot Notes:
+  - Not for use with IUD without consulting a gynaecologist first.
+  - Boil in water 5 min before first use and between cycles to sterilise.
+  - Returns/exchanges not accepted for hygiene reasons — be clear about this
+    before purchase.
+
+
+================================================================================
+GLOBAL DISCOUNT & PRICING RULES
+================================================================================
+
+Active Sitewide Promotions (as of March 2026):
+  - Most products carry 18–29% discount (see individual listings)
+  - Code WELCOME10: 10% off first order (stackable with product sale price)
+  - Code STUDENT5: Extra 5% off for students (valid on electronics only)
+  - Subscribe & Save: Available on select beauty/wellness products (see listings)
+  - Free shipping on orders above ₹999
+  - Express shipping (1–2 days): ₹149 flat fee
+
+Cannot Be Combined:
+  - WELCOME10 and STUDENT5 cannot be used together
+  - Bundle discounts cannot be combined with WELCOME10
+
+================================================================================
+STOCK STATUS KEY
+================================================================================
+  In Stock      = Available; ships within 1–2 business days
+  Low Stock     = Fewer than 15 units; order soon
+  Out of Stock  = Not available; restock timeline noted per product where known
+  Waitlist      = Customer can register email to be notified on restock
+
+================================================================================
+END OF PRODUCT CATALOGUE — 80 PRODUCTS TOTAL
+================================================================================

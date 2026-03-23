@@ -1,0 +1,154 @@
+
+PAYMENT POLICY
+==============
+
+ACCEPTED PAYMENT METHODS
+
+Credit Cards:
+  Visa, Mastercard, American Express, Diners Club, RuPay
+  International credit cards accepted
+  3D Secure authentication required for all transactions
+  Saved cards stored securely via tokenization
+
+Debit Cards:
+  All major bank debit cards accepted
+  Supported networks: Visa, Mastercard, Maestro, RuPay
+  Banks: SBI, HDFC, ICICI, Axis, Kotak, Yes Bank, PNB,
+         Bank of Baroda, Canara Bank, and 50+ more
+
+UPI (Unified Payments Interface):
+  Google Pay, PhonePe, Paytm, BHIM, Amazon Pay, Cred Pay
+  Pay via UPI ID or scan QR code at checkout
+  Instant payment confirmation
+  No additional charges for UPI payments
+
+Net Banking:
+  60+ banks supported including all major nationalized banks
+  Redirected to your bank portal for secure authentication
+  Payment confirmed instantly on return to ShopEasy
+
+Digital Wallets:
+  Paytm Wallet, Amazon Pay balance, Mobikwik, Freecharge
+  Wallet balance can be partially used with another payment method
+  Example: Rs. 200 from wallet + remaining via UPI
+
+EMI (Equated Monthly Installments):
+  Available on all orders above Rs. 3,000
+  No-cost EMI available on select products
+    (look for "No Cost EMI" tag on product page)
+  Supported banks: SBI, HDFC, ICICI, Axis, Kotak, Yes Bank,
+                   Citibank, HSBC, Standard Chartered
+  Available tenures: 3, 6, 9, 12, 18, 24 months
+  Processing fee: Nil on no-cost EMI
+  Processing fee on standard EMI: 1% to 2% of order value
+  Debit card EMI available for HDFC and Axis bank customers
+  EMI eligibility shown automatically at checkout
+
+Buy Now Pay Later (BNPL):
+  Available providers: ZestMoney, Simpl, LazyPay, Flipkart Pay Later
+  Credit limit: Rs. 500 to Rs. 1,00,000 depending on provider
+  Repayment cycle: 15-day or monthly depending on provider
+  Eligibility checked automatically at checkout
+  No interest for pay-in-full within due date
+
+Cash on Delivery (COD):
+  Available on orders up to Rs. 10,000
+  Not available in certain remote PIN codes
+  Not available on combo offers or heavily discounted items
+  COD convenience charge: Rs. 29 per order
+  COD charge waived for Prime membership holders
+  Exact change appreciated — delivery agent carries limited change
+  COD orders can be cancelled before dispatch without any charge
+
+Store Credit & Gift Cards:
+  Apply at checkout in the Promotions or Gift Card section
+  Partial use allowed — remaining balance saved to your account
+  Store credit valid for 1 year from date of issue
+  Gift cards valid for 2 years from purchase date
+  Store credit and gift cards cannot be converted to cash
+
+PAYMENT SECURITY
+  Payment gateway: Razorpay (PCI-DSS Level 1 certified)
+  Your actual card number is never stored on our servers
+  All card data stored as secure tokens only
+  All transactions encrypted via TLS 1.3
+  Two-factor authentication for high-value transactions above Rs. 50,000
+  Suspicious transaction alerts sent via email and SMS
+  If you did not initiate a transaction — contact us immediately
+
+SAVED PAYMENT METHODS
+  Save cards, UPI IDs, and wallets for faster checkout
+  Tokenization ensures your real card number is never stored
+  Manage saved payment methods: My Account > Payment Methods
+  Delete saved methods anytime from account settings
+  Maximum 5 saved cards per account
+
+PAYMENT FAILURE — CARD DECLINED
+  If your payment is declined:
+  - Order is not placed
+  - No amount is deducted
+  Common reasons for decline:
+    - Daily transaction limit reached on your card or UPI
+    - International card used without enabling online transactions
+    - Bank security block on first-time ecommerce transaction
+    - Incorrect CVV or expiry date entered
+    - Insufficient balance
+  Solutions:
+    - Try a different payment method
+    - Contact your bank to check transaction limits
+    - Enable online transactions via your bank app
+
+PAYMENT DEDUCTED BUT ORDER NOT CONFIRMED
+  This happens when payment is processed but order confirmation fails.
+  Follow these steps:
+
+  Step 1: Wait 30 minutes
+          Most auto-reversals complete within this window
+
+  Step 2: Check My Orders
+          Order may have confirmed — refresh the page
+
+  Step 3: Check your bank statement
+          Confirm the deduction actually occurred
+
+  Step 4: If amount not reversed in 5 to 7 business days:
+          Raise a support ticket via My Account > Help
+
+  Step 5: Share these details with support team:
+          - Your registered email or mobile number
+          - Order date and time
+          - Bank transaction UTR number
+          - Amount deducted
+          - Screenshot of bank statement (optional but helpful)
+
+  Step 6: Finance team investigates within 24 hours
+          Full refund guaranteed if order was not placed
+
+DUPLICATE CHARGE
+  If charged twice for the same order:
+  - Share both transaction IDs with support team
+  - Duplicate charge refunded within 48 hours
+  - Email: payments@shopeasy.com with subject "Duplicate Charge"
+
+EMI REFUNDS
+  If an EMI order is returned:
+  - Outstanding EMI balance cancelled
+  - Amount already paid refunded to original card
+  - Bank processes EMI reversal within 7 to 10 business days
+  - Processing fee charged by bank may not be refunded
+    (depends on your bank policy)
+
+GST INVOICE & BILLING
+  GST invoice generated automatically for all orders
+  Download invoice: My Orders > Select Order > Download Invoice
+  Invoice emailed to registered email within 24 hours of delivery
+  Business buyers: add GSTIN in My Account > Business Details
+  B2B invoice with GSTIN issued for business accounts
+  Invoice cannot be modified after generation
+
+CONTACT FOR PAYMENT ISSUES
+  Email:   payments@shopeasy.com
+  Phone:   1800-XXX-XXXX (Monday to Saturday, 9 AM to 8 PM IST)
+  Chat:    Available 24/7 via the AI support assistant
+  For urgent payment issues use live chat for fastest response
+  Response time for payment issues: within 4 business hours

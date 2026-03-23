@@ -1,0 +1,227 @@
+
+ECOMMERCE GLOSSARY
+==================
+
+This glossary explains common ecommerce terms that customers
+frequently ask about when shopping on ShopEasy.
+
+SKU (Stock Keeping Unit):
+  A unique identifier code assigned to each distinct product variant.
+  Example: a blue shirt in size M has a different SKU from the same
+  shirt in size L or in a different colour.
+  SKUs are used internally to track inventory levels.
+  When contacting support about a specific product variant
+  the SKU helps us identify it precisely.
+
+MRP (Maximum Retail Price):
+  The highest legal price at which a product can be sold in India
+  as printed on the product packaging by the manufacturer.
+  Our prices are always at or below MRP.
+  The percentage off shown on ShopEasy is the discount from MRP.
+  MRP includes all taxes — no additional tax is added at checkout.
+  Selling above MRP is illegal under Indian consumer protection law.
+
+Fulfilled by ShopEasy (FBS):
+  Products stored in our warehouse and shipped by us even though
+  sold by a third-party seller.
+  FBS orders benefit from:
+  - Guaranteed 24-hour dispatch
+  - ShopEasy packaging standards
+  - Faster delivery timelines
+  - Easier returns handled directly by ShopEasy
+  Look for the Fulfilled by ShopEasy badge on product listings.
+
+Flash Sale:
+  A limited-time sale offering deep discounts typically lasting
+  4 to 24 hours with limited stock quantities.
+  Items sell out quickly — add to cart immediately.
+  Prime members get 12-hour early access to all flash sales.
+  Flash sale prices cannot be price-matched after the sale ends.
+  Flash sale items may have different return policies
+  — check product page for specific terms.
+
+COD (Cash on Delivery):
+  Payment made in cash to the delivery agent when the package arrives.
+  Available on orders up to Rs. 10,000 on ShopEasy.
+  COD convenience charge: Rs. 29 per order (waived for Prime members).
+  Exact change is appreciated as delivery agents carry limited change.
+  COD orders can be refused at the door if you change your mind
+  — no charge for COD refusal.
+  Not available in certain remote PIN codes.
+  Not available on heavily discounted combo offers.
+
+EMI (Equated Monthly Installment):
+  Splitting the total cost of a purchase into equal monthly payments.
+  No-cost EMI: you pay exactly the product price split into installments.
+  The bank interest is absorbed by ShopEasy or the seller.
+  Standard EMI: includes processing fee of 1% to 2% of order value.
+  EMI available on orders above Rs. 3,000.
+  Supported banks: SBI, HDFC, ICICI, Axis, Kotak, Yes Bank and more.
+  Tenures: 3, 6, 9, 12, 18, and 24 months.
+  If you return an EMI order outstanding installments are cancelled
+  and amount already paid is refunded to your card.
+
+BNPL (Buy Now Pay Later):
+  Purchase now and pay within a specified period with no immediate payment.
+  Repayment period: typically 15 to 30 days depending on provider.
+  Providers on ShopEasy: ZestMoney, Simpl, LazyPay, Flipkart Pay Later.
+  Credit limit: Rs. 500 to Rs. 1,00,000 depending on provider and
+  your credit score.
+  No interest if paid in full by due date.
+  Late payment fees apply if due date is missed.
+  BNPL eligibility checked automatically at checkout.
+
+Wishlist:
+  A saved list of products you are interested in but have not
+  purchased yet.
+  Wishlisted items trigger automatic price drop notifications
+  so you never miss a deal.
+  Also triggers stock alerts when out-of-stock items are available.
+  Share your wishlist as a gift guide via link.
+  Move items from wishlist to cart in one click.
+  Items in wishlist do not reserve stock.
+  Access wishlist: My Account > Wishlist.
+
+ShopCoins:
+  ShopEasy reward points earned on every purchase.
+  Standard members earn 1 ShopCoin per Rs. 100 spent.
+  Prime members earn 2 ShopCoins per Rs. 100 spent.
+  1 ShopCoin equals Re. 1 discount at checkout.
+  Maximum 20% of order value can be paid via ShopCoins.
+  Minimum redemption: 100 ShopCoins.
+  ShopCoins expire 1 year after they are earned.
+  Cannot be transferred converted to cash or used on delivery charges.
+  Check balance and expiry: My Account > ShopCoins.
+
+RTO (Return to Origin):
+  When a delivery fails and the package returns to our warehouse.
+  Common causes: two failed delivery attempts, customer refused delivery,
+  address not found, customer unavailable repeatedly.
+  Prepaid orders: automatic refund initiated after RTO confirmed.
+  COD orders: no charge to customer for RTO.
+  You will receive email notification when RTO is processed.
+  After RTO you can place a fresh order with a corrected address.
+
+PIN Code Serviceability:
+  Whether our delivery network covers your postal area.
+  Check at checkout by entering your PIN code.
+  Most of India's 27,000+ PIN codes are serviceable.
+  Remote PIN codes may have longer delivery timelines.
+  Some PIN codes not eligible for express or same day delivery.
+  Some PIN codes not eligible for COD.
+  If your PIN code is not serviceable we will notify you at checkout.
+
+Pre-order:
+  Purchasing a product before its official release or availability date.
+  Full payment collected at time of order placement.
+  Order is confirmed immediately with an estimated dispatch date.
+  Item ships as soon as it becomes available.
+  Cancel pre-order anytime before dispatch for full refund.
+  Price guarantee: if price drops before dispatch we refund the difference.
+
+Back-order:
+  Placing an order for an item that is temporarily out of stock.
+  Estimated restock date shown at checkout.
+  Payment collected at time of order.
+  Email notification sent when item is dispatched.
+  Cancel back-order anytime before dispatch for full refund.
+  If item cannot be restocked within 30 days automatic cancellation
+  and full refund are processed.
+
+Quality Check (QC):
+  Inspection of returned items at our warehouse before approving refund.
+  QC verifies: item condition, completeness of accessories,
+  original packaging, serial numbers for electronics.
+  QC typically takes 2 to 3 business days after return pickup.
+  QC passed: refund initiated within 24 hours.
+  QC failed: item returned to customer with explanation.
+  Dispute QC decision within 48 hours by contacting support.
+
+UTR (Unique Transaction Reference):
+  A reference number assigned by the bank to every transaction.
+  Format varies by bank: typically 12 to 22 characters.
+  Essential for tracing a payment if order was not confirmed
+  but amount was deducted from your account.
+  Find UTR in your bank app under transaction history.
+  Share UTR with ShopEasy support for payment issue resolution.
+  Without UTR payment investigation can take significantly longer.
+
+GST Invoice:
+  Tax invoice issued for all purchases on ShopEasy.
+  Shows CGST and SGST breakdown for intra-state purchases.
+  Shows IGST for inter-state purchases.
+  Required for business expense claims and input tax credit.
+  Download: My Orders > Select Order > Download Invoice.
+  Emailed to registered email within 24 hours of delivery.
+  Business buyers add GSTIN in account settings for B2B invoice.
+  Invoice cannot be modified after generation.
+
+Tokenization:
+  Security process where your actual card number is replaced
+  with a random token for storage purposes.
+  We never store your real card number — only the token.
+  The token is useless to hackers — cannot be used elsewhere.
+  Mandated by RBI for all Indian payment processors since 2022.
+  Enables one-click checkout without compromising card security.
+  You can delete tokens anytime from My Account > Payment Methods.
+
+OTP (One Time Password):
+  A temporary numeric code sent to your mobile or email
+  to verify your identity for secure actions.
+  Valid for 10 minutes only.
+  Used for: account login, password reset, high-value transactions,
+  address changes, payment verification.
+  Never share your OTP with anyone including ShopEasy staff.
+  ShopEasy will never ask for your OTP over phone or chat.
+
+Prime Membership:
+  ShopEasy's premium subscription at Rs. 999 per year or Rs. 149 per month.
+  Benefits include: free unlimited delivery, early sale access,
+  extended 45-day returns, priority support, 2x ShopCoins,
+  free COD, free gift wrapping, and ShopEasy Prime Video access.
+  Family sharing available for up to 2 additional members.
+  Cancel anytime — benefits active till end of billing period.
+
+Seller Rating:
+  A score from 1.0 to 5.0 reflecting seller performance.
+  Based on: delivery speed, packaging quality, product accuracy,
+  and customer service responsiveness.
+  Visible on all seller product listings.
+  Sellers below 4.0 rating face suspension.
+  Helps you choose reliable sellers when multiple sellers
+  offer the same product at different prices.
+
+Open Box:
+  A product that has been opened previously but not used.
+  May be a customer return that passed quality check.
+  Priced lower than brand new sealed products.
+  Clearly labelled as Open Box on listing.
+  Comes with same warranty as new product.
+  Same return policy as new products applies.
+  Condition verified and certified by ShopEasy.
+
+Combo Offer:
+  A discounted bundle of two or more related products sold together.
+  Combo price is lower than buying items individually.
+  All items in a combo must be returned together for full refund.
+  Partial returns from combos result in adjusted refund amount.
+  COD not available on certain combo offers.
+  Combo offers cannot be split into individual items at checkout.
+
+Coupon Code:
+  An alphanumeric code that applies a discount at checkout.
+  Enter in the Promotions or Coupon Code field at checkout.
+  One coupon code per order maximum.
+  Cannot be combined with certain other offers.
+  Cannot be added after order is placed.
+  Coupon codes have expiry dates — check validity before use.
+  Find available coupons: My Account > My Coupons.
+
+Delivery Slot:
+  A specific time window chosen by the customer for delivery.
+  Available for scheduled delivery option only.
+  Slots: AM (9 AM to 1 PM) or PM (2 PM to 8 PM).
+  Book up to 7 days in advance.
+  No additional charge for scheduled delivery slots.
+  Slot booking available at checkout or from My Orders
+  before the order is dispatched.

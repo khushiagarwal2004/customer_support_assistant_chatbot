@@ -1,0 +1,169 @@
+
+ACCOUNT & MEMBERSHIP
+====================
+
+CREATING AN ACCOUNT
+  Sign up at shopeasy.com or via the ShopEasy mobile app
+  Sign up options:
+    - Email address + password
+    - Mobile number + OTP
+    - Google account (OAuth)
+    - Apple ID (OAuth)
+    - Facebook account (OAuth)
+  OTP verification required for mobile number signup
+  Email verification link sent for email signup
+  Profile information:
+    - Full name
+    - Mobile number
+    - Email address
+    - Date of birth (optional — used for birthday rewards)
+    - Gender (optional)
+  Save up to 10 delivery addresses
+  Save up to 5 payment methods (tokenized — cards never stored raw)
+
+GUEST CHECKOUT
+  Order without creating an account
+  Enter email and delivery address at checkout
+  Order confirmation and tracking sent to email
+  Cannot use saved addresses or payment methods
+  Cannot earn or redeem ShopCoins reward points
+  Returns must be initiated via email link
+  Recommend creating account for better experience
+
+PRIME MEMBERSHIP — Rs. 999 per year or Rs. 149 per month
+
+  Delivery Benefits:
+    Free unlimited standard delivery on all orders (no minimum)
+    Free express delivery on orders above Rs. 499
+    Same day delivery at standard delivery price
+    Priority dispatch — orders processed first
+
+  Shopping Benefits:
+    Early access to all sales — 12 hours before general public
+    Exclusive Prime-only deals and flash sales
+    Price drop guarantee — if price drops within 24 hours of purchase
+    we refund the difference automatically
+    Free COD on all orders (normally Rs. 29 per order)
+    Free gift wrapping on all orders (normally Rs. 49 per item)
+
+  Return Benefits:
+    Extended return window: 45 days (vs 30 days standard)
+    Priority return pickup — within 24 hours (vs 48 hours standard)
+    Dedicated returns support team
+
+  Rewards Benefits:
+    2x ShopCoins on every purchase (vs 1x for standard members)
+    500 bonus ShopCoins on Prime signup
+    Birthday bonus: 1000 ShopCoins on your birthday
+
+  Support Benefits:
+    Priority customer support queue
+    Average wait time under 2 minutes
+    Dedicated Prime support email: prime@shopeasy.com
+
+  Entertainment Benefits:
+    Access to ShopEasy Prime Video (select plans)
+    Early access to new product launches
+
+  How to activate Prime:
+    My Account > Prime Membership > Subscribe
+    Auto-renewal enabled by default
+    Cancel anytime — benefits active till end of billing period
+
+  Family sharing:
+    Add up to 2 family members to your Prime account
+    Family members get all delivery and return benefits
+    Family members do not get shopping or rewards benefits
+    Manage family sharing: My Account > Prime > Family
+
+PLUS MEMBERSHIP — Rs. 299 per year
+
+  Free standard delivery on orders above Rs. 299
+    (vs Rs. 499 threshold for standard accounts)
+  10% off all platform delivery charges
+  Early access to clearance sales
+  Extended return window: 35 days (vs 30 days standard)
+  How to activate: My Account > Plus Membership > Subscribe
+
+SHOPCOINS REWARD POINTS
+  Earning ShopCoins:
+    Standard members: 1 ShopCoin per Rs. 100 spent
+    Prime members: 2 ShopCoins per Rs. 100 spent
+    Welcome bonus: 100 ShopCoins on first purchase
+    Referral bonus: 500 ShopCoins when referee makes first purchase
+    Birthday bonus: 500 ShopCoins (1000 for Prime members)
+    Review bonus: 50 ShopCoins for writing a verified product review
+    App download bonus: 200 ShopCoins (one time)
+
+  Redeeming ShopCoins:
+    1 ShopCoin = Re. 1 discount at checkout
+    Apply at checkout under Rewards & Coupons section
+    Maximum 20% of order value can be paid via ShopCoins
+    Minimum redemption: 100 ShopCoins
+    Cannot be combined with certain promotional offers
+
+  ShopCoins validity:
+    Expire 1 year after the date they were earned
+    Expiry date shown in My Account > ShopCoins
+    Reminder email sent 30 days before expiry
+
+  ShopCoins cannot be:
+    Transferred to another account
+    Converted to cash
+    Used to pay delivery charges
+    Earned on COD orders (credited after payment confirmed)
+
+ACCOUNT SECURITY
+  Two-factor authentication (2FA):
+    Enable via My Account > Security > Two-Factor Authentication
+    Options: OTP via SMS, OTP via email, authenticator app
+  Suspicious login alerts:
+    Email and SMS alert for login from new device or location
+    Review active sessions: My Account > Security > Active Sessions
+    Log out all devices remotely from security settings
+  Password requirements:
+    Minimum 8 characters
+    Must include uppercase, lowercase, number, special character
+  Password reset:
+    Click Forgot Password on login page
+    Reset via email OTP or SMS OTP
+    Lost access to both: contact support with government ID proof
+  Account freeze:
+    Request account freeze if you suspect unauthorized access
+    Contact support immediately: security@shopeasy.com
+
+WISHLIST
+  Save items for later (unlimited items)
+  Price drop alerts: notification when wishlisted item price drops
+  Stock alerts: notification when out-of-stock item is available
+  Share wishlist via link (useful for gifting)
+  Move item from wishlist to cart in one click
+  Items saved in wishlist do not reserve stock
+
+NOTIFICATION PREFERENCES
+  Email notifications:
+    Order updates, shipping confirmations, delivery alerts
+    Promotional emails, new arrivals, personalized recommendations
+    Manage: My Account > Notifications > Email
+  SMS notifications:
+    Order updates and OTPs only
+    Manage: My Account > Notifications > SMS
+  WhatsApp notifications:
+    Order updates and delivery alerts (opt-in required)
+    Manage: My Account > Notifications > WhatsApp
+  Push notifications (app):
+    Real-time order tracking, flash sale alerts, price drops
+    Enable in app settings or device notification settings
+
+ACCOUNT DELETION
+  Request account deletion: My Account > Settings > Delete Account
+  All personal data deleted within 30 days
+  Order history retained for legal and tax purposes (7 years)
+  ShopCoins and store credit forfeited on deletion
+  Active orders must be completed or cancelled before deletion
+  Prime or Plus membership cancelled and prorated refund issued
+
+CONTACT FOR ACCOUNT ISSUES
+  Email:   account@shopeasy.com
+  Phone:   1800-XXX-XXXX (Monday to Saturday, 9 AM to 8 PM IST)
+  Chat:    Available 24/7 via the AI support assistant

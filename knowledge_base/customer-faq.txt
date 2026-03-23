@@ -1,0 +1,321 @@
+
+CUSTOMER FREQUENTLY ASKED QUESTIONS
+=====================================
+
+ORDERS & DELIVERY
+
+Q: How do I track my order?
+A: Go to My Account > My Orders and click Track next to your order.
+   You will also receive a tracking link via email and SMS within
+   24 hours of dispatch. For same day deliveries a live map link
+   is shared 30 minutes before the delivery agent arrives.
+   If you have not received a tracking link within 24 hours of
+   your dispatch confirmation email contact our support team.
+
+Q: Can I order without creating an account?
+A: Yes. Guest checkout is available on ShopEasy.
+   Enter your email address and delivery address at checkout.
+   Order confirmation and tracking updates are sent to your email.
+   However without an account you cannot:
+   - Use saved addresses or payment methods
+   - Earn or redeem ShopCoins reward points
+   - Access easy returns from My Orders
+   - View full order history
+   We recommend creating a free account for a better experience.
+
+Q: My order shows Delivered but I have not received it.
+A: First check with family members, neighbours, and building security.
+   Check your door, mailbox, and reception area.
+   Delivery agents sometimes leave packages with neighbours or security.
+   If you still cannot find it report within 48 hours:
+   Go to My Orders > Select Order > Report Issue > Not Received.
+   We will investigate with the carrier and resolve within 24 to 48 hours.
+   Full replacement or refund is guaranteed for undelivered orders.
+
+Q: Can I change my delivery address after placing an order?
+A: Before dispatch: Go to My Orders > Select Order > Edit Address.
+   You can change to any address in our serviceable network.
+   After dispatch: Contact support within 12 hours of dispatch.
+   Address changes after dispatch are possible in limited cases
+   and may incur a small redirect charge of Rs. 50 to Rs. 150.
+   Address changes are not possible for same day deliveries.
+   Address changes are not possible if order is already out for delivery.
+
+Q: Why is my order delayed?
+A: Delays can happen due to:
+   - High demand periods such as sale events
+   - Weather disruptions or natural calamities
+   - Carrier capacity constraints
+   - Address verification issues
+   - Remote delivery location
+   Check your tracking link for the latest status update.
+   If estimated delivery date has passed by more than 2 days
+   contact support for a status update or replacement dispatch.
+
+Q: What does Out for Delivery mean and will it arrive today?
+A: Out for Delivery means your package is with a local delivery
+   agent and is scheduled for delivery today.
+   Delivery is typically completed by 8 PM.
+   In rare cases due to heavy traffic or large delivery loads
+   it may slip to the next day.
+   You will receive a notification if delivery is rescheduled.
+   You may also receive a call from the delivery agent.
+
+Q: What happens if I miss my delivery?
+A: The carrier will attempt delivery twice before returning to hub.
+   After two failed attempts the package is held at the nearest
+   delivery hub for 5 days.
+   You can reschedule delivery from the tracking link in your
+   email or SMS notification.
+   After 5 days with no response the package is returned to our
+   warehouse and an automatic refund is initiated for prepaid orders.
+
+Q: Can I get same day delivery for all products?
+A: Same day delivery is available in Mumbai, Delhi NCR, Bengaluru,
+   Pune, and Hyderabad only.
+   Orders must be placed before 10 AM.
+   Items above 10kg or oversized packages are not eligible.
+   Same day delivery charge is Rs. 149 (free for Prime members
+   on orders above Rs. 499).
+
+RETURNS & REFUNDS
+
+Q: How long does a refund take after I return an item?
+A: After your return is picked up it undergoes quality check
+   at our warehouse which takes 2 to 3 business days.
+   After QC approval refund timelines are:
+   Credit or Debit Card: 5 to 7 business days
+   UPI: 3 to 5 business days
+   Net Banking: 5 to 7 business days
+   COD orders via bank transfer: 7 to 10 business days
+   Store credit: Instant
+   If your refund has not arrived after these timelines
+   contact support with your order ID and return ID.
+
+Q: Can I return an electronic item if I simply do not like it?
+A: Yes within 15 days if the item is unused and in original
+   packaging with all accessories and original box included.
+   If the item has been used returns are only accepted for
+   manufacturing defects or damage present at delivery.
+   Change of mind returns for used electronics are not accepted.
+   The serial number on the item must match the invoice.
+
+Q: My return was rejected after quality check. Why?
+A: Returns are rejected after QC if:
+   - Item shows signs of use or damage not present at delivery
+   - Original packaging is missing or severely damaged
+   - Accessories tags or manuals are missing
+   - Serial number does not match (electronics)
+   - Item does not match what was originally ordered
+   - Return window had expired at time of request
+   If you believe the rejection was incorrect contact support
+   within 48 hours of the rejection notification to dispute it.
+
+Q: Can I exchange instead of returning?
+A: Direct exchange is available for fashion and footwear only
+   for size or colour issues.
+   Select Exchange instead of Return when raising the request.
+   Choose the correct size or colour you want.
+   Exchange pickup and new item delivery are coordinated together.
+   If exchange item costs more you pay the difference.
+   If exchange item costs less the difference is refunded.
+   For electronics and other categories:
+   complete a return and then place a new order.
+
+Q: Can I return a product after the return window has expired?
+A: Standard returns are not accepted after the return window closes.
+   However if the product has a manufacturing defect you may be
+   eligible for a warranty claim even after the return window.
+   Warranty claims: My Orders > Select Order > Claim Warranty.
+   Contact support if you believe your case deserves an exception.
+   Prime members have an extended 45-day return window.
+
+PAYMENTS & PRICING
+
+Q: Why was my payment declined even though I have enough balance?
+A: Common reasons for payment decline:
+   - Daily transaction limit reached on your card or UPI
+   - International card used without enabling online transactions
+   - Bank security block on first-time ecommerce transaction
+   - Incorrect CVV or expiry date entered
+   - Card expired
+   - Insufficient balance including pending charges
+   Solutions:
+   Try a different payment method.
+   Contact your bank to check and increase transaction limits.
+   Enable online or ecommerce transactions via your bank app.
+
+Q: Is it safe to save my card details on ShopEasy?
+A: Yes. We use Razorpay as our payment gateway which is
+   PCI-DSS Level 1 certified — the highest level of payment security.
+   Your actual card number is never stored on our servers.
+   Only a secure token is saved — the actual number cannot be
+   retrieved from the token even if our systems were compromised.
+   You can delete saved cards anytime from My Account > Payment Methods.
+
+Q: Can I use multiple payment methods for one order?
+A: You can combine Store Credit or ShopCoins with any other
+   payment method for the remaining amount.
+   Two credit cards or two UPI accounts cannot be combined.
+   Wallet balance can be combined with a card for the remaining amount.
+   Example: Rs. 500 store credit + Rs. 1200 via UPI for a Rs. 1700 order.
+
+Q: The price changed between adding to cart and checkout. Why?
+A: Prices on ShopEasy are dynamic and can change due to:
+   - Flash sale ending between cart and checkout
+   - Promotional period expiring
+   - Seller updating their price
+   - Stock level changes affecting pricing
+   Adding an item to your cart does not lock or reserve the price.
+   The price shown at checkout is the final price.
+   We recommend completing checkout promptly during sales.
+
+Q: Are there any hidden charges on ShopEasy?
+A: No hidden charges. The total shown at checkout is what you pay.
+   Charges that may be added at checkout:
+   - Delivery charge if order is below free shipping threshold
+   - COD convenience fee of Rs. 29 (waived for Prime members)
+   - Gift wrapping charge of Rs. 49 per item if selected
+   - Installation charge if booked for applicable products
+   All charges are shown clearly before you place the order.
+   GST is included in the product price shown — not added separately.
+
+Q: What is No Cost EMI?
+A: No Cost EMI means you pay exactly the product price split
+   across monthly installments with no additional interest.
+   The bank interest is absorbed by ShopEasy or the seller.
+   Available on select products marked with No Cost EMI tag.
+   Available on orders above Rs. 3,000.
+   Supported banks include SBI, HDFC, ICICI, Axis, Kotak, Yes Bank.
+   Tenures available: 3, 6, 9, 12, 18, 24 months.
+   Standard EMI is also available and includes processing fee
+   of 1% to 2% of the order value.
+
+ACCOUNT & MEMBERSHIP
+
+Q: I forgot my password. How do I reset it?
+A: Click Forgot Password on the login page.
+   Enter your registered email address or mobile number.
+   You will receive an OTP to verify your identity.
+   Enter the OTP and set a new password.
+   Password must be minimum 8 characters with uppercase,
+   lowercase, number, and special character.
+   If you have lost access to both your email and mobile
+   contact support with government-issued ID proof for
+   manual account verification.
+
+Q: How do I cancel my Prime membership?
+A: Go to My Account > Prime Membership > Manage > Cancel Renewal.
+   Your Prime benefits remain active until the end of your
+   current billing period.
+   No partial refunds are given for unused membership period.
+   You can reactivate Prime at any time after cancellation.
+
+Q: What are ShopCoins and how do I use them?
+A: ShopCoins are ShopEasy reward points.
+   You earn 1 ShopCoin for every Rs. 100 spent.
+   Prime members earn 2 ShopCoins per Rs. 100 spent.
+   1 ShopCoin equals Re. 1 discount at checkout.
+   Redeem at checkout under Rewards and Coupons section.
+   Maximum 20% of order value can be paid via ShopCoins.
+   ShopCoins expire 1 year after the date they were earned.
+   Check your balance: My Account > ShopCoins.
+
+Q: Can I merge two ShopEasy accounts?
+A: Account merging is not currently supported.
+   If you accidentally created two accounts contact support.
+   Order history cannot be transferred between accounts.
+   ShopCoins consolidation may be possible in some cases
+   — contact support to check eligibility.
+
+PRODUCTS & AVAILABILITY
+
+Q: How do I know if a product is genuine?
+A: Look for the Authenticity Guaranteed badge on the product page.
+   Electronics come only from authorized distributors.
+   Branded fashion and footwear come from brand-authorized sellers.
+   If you receive a counterfeit item you get a full refund
+   plus Rs. 500 store credit as compensation.
+   Report suspected counterfeit: trust@shopeasy.com.
+
+Q: The product I want is out of stock. When will it be back?
+A: Click Notify Me on the product page to receive an alert
+   when it comes back in stock.
+   For high-demand items we restock regularly.
+   You can also check if the same product is available from
+   a different seller on the same listing.
+   Back-order option available for select products —
+   place order now and receive when stock is replenished.
+
+Q: Why do prices vary for the same product across different sellers?
+A: Different sellers set their own prices independently.
+   The lowest-priced seller is typically shown first.
+   Check seller ratings before choosing a lower-priced option.
+   Price differences can be due to:
+   - Different seller cost structures
+   - Seller promotions or offers
+   - New versus open-box condition
+   - FBS versus self-fulfilled (affects speed not quality)
+   ShopEasy does not set seller prices but monitors for
+   price gouging and takes action against violations.
+
+Q: Can I get a product review from a verified buyer?
+A: Yes. Only verified purchasers can write reviews on ShopEasy.
+   Look for the Verified Purchase badge on reviews.
+   Reviews are moderated before publishing (24 to 48 hours).
+   You can filter reviews by star rating and recency.
+   Write your own review: My Orders > Delivered > Write Review.
+   Earn 50 ShopCoins for writing a verified product review.
+
+TECHNICAL & APP
+
+Q: The ShopEasy website or app is not loading. What should I do?
+A: Try these steps in order:
+   Step 1: Check your internet connection
+   Step 2: Clear browser cache and cookies
+   Step 3: Try a different browser or device
+   Step 4: Update the ShopEasy app to the latest version
+   Step 5: Restart your device
+   If the issue persists contact support with your device model
+   and operating system version.
+   Check shopeasy.com/status for any known outages.
+
+Q: How do I download my GST invoice?
+A: Go to My Orders.
+   Select the delivered order.
+   Click Download Invoice.
+   GST invoice is auto-generated for all orders.
+   Business buyers with GSTIN registered in account settings
+   receive B2B invoices automatically.
+   Invoices are also emailed to your registered email address
+   within 24 hours of delivery confirmation.
+
+Q: How do I write a product review?
+A: Only verified purchasers can write reviews.
+   Go to My Orders > Select delivered order > Write Review.
+   Rate 1 to 5 stars and write your review text.
+   Add photos to make your review more helpful.
+   Reviews are moderated and published within 24 to 48 hours.
+   You earn 50 ShopCoins for each verified review published.
+   Reviews cannot be edited after 24 hours of submission.
+
+CONTACT & SUPPORT
+
+Q: How do I contact ShopEasy customer support?
+A: Multiple ways to reach us:
+   AI Chat Assistant: Available 24 hours 7 days a week
+   Live Human Chat: Monday to Saturday 9 AM to 8 PM IST
+   Phone: 1800-XXX-XXXX (toll free, Monday to Saturday 9 AM to 8 PM)
+   Email: support@shopeasy.com (response within 24 hours)
+   Prime support: prime@shopeasy.com (response within 2 hours)
+   For fastest resolution use live chat during business hours.
+
+Q: What information should I have ready when contacting support?
+A: Having this information ready helps us resolve your issue faster:
+   - Your registered email address or mobile number
+   - Order ID (format: ORD-YYYYMMDD-XXXXXX)
+   - Product name and SKU if applicable
+   - Description of the issue
+   - Photos if item is damaged or wrong
+   - Bank UTR number for payment issues
+   - Tracking ID for delivery issues

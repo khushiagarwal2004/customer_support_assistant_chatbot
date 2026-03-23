@@ -1,0 +1,168 @@
+
+SELLER & VENDOR POLICY
+======================
+
+THIRD-PARTY SELLERS ON SHOPEASY
+  ShopEasy is a marketplace platform hosting products from
+  verified third-party sellers alongside our own inventory.
+  Every product page clearly shows:
+    - Sold by: [Seller Name]
+    - Fulfilled by: ShopEasy or Seller
+    - Seller rating and number of reviews
+    - Seller response time
+
+SELLER VERIFICATION & ONBOARDING
+  All sellers must complete:
+    - GSTIN verification (mandatory for all Indian sellers)
+    - PAN card verification
+    - Bank account verification
+    - Business address verification
+    - KYC (Know Your Customer) documentation
+  New sellers undergo 30-day probationary period
+  During probation: maximum 100 orders per day
+  After probation: limits based on performance metrics
+  Seller categories:
+    - Individual sellers (small businesses)
+    - Brand authorized sellers
+    - Brand direct stores (managed by brand itself)
+
+AUTHENTICITY GUARANTEE
+  Electronics:
+    Only authorized distributor network allowed to sell
+    Every unit verified against manufacturer records
+    Serial numbers checked on receipt at warehouse (FBP sellers)
+  Branded Fashion & Footwear:
+    Only brand-authorized sellers permitted
+    Random sample checks conducted monthly
+  Books and Media:
+    Only authorized distributors and publishers
+  100% Authenticity Guarantee:
+    If you receive a counterfeit item:
+    - Full refund issued immediately
+    - Rs. 500 store credit compensation
+    - Seller account suspended pending investigation
+    - Report counterfeit: trust@shopeasy.com
+
+SELLER PERFORMANCE STANDARDS
+  Minimum rating: 4.0 out of 5.0
+  On-time dispatch rate: minimum 95%
+  Order defect rate: maximum 1%
+  Return rate: maximum 8%
+  Response time to customer queries: within 24 hours
+  Sellers falling below standards:
+    - Warning issued at first breach
+    - Listing suspension at second breach
+    - Account suspension at third breach
+    - Permanent ban for fraud or counterfeit violations
+
+FULFILMENT OPTIONS
+
+  Seller Self-Fulfilment:
+    Seller stores, packs, and ships from their own location
+    Seller responsible for packaging quality
+    Seller uses our integrated carrier network
+    Dispatch SLA: within 2 business days of order
+
+  Fulfilment by ShopEasy (FBS):
+    Seller sends inventory to our warehouses
+    We handle storage, picking, packing, and shipping
+    Benefits for seller:
+      - Next-day dispatch guarantee
+      - Better search ranking
+      - Prime badge eligibility
+      - Reduced shipping costs
+    Benefits for customer:
+      - Guaranteed 24-hour dispatch
+      - ShopEasy packaging standards
+      - Faster delivery timelines
+      - Easier returns (handled by ShopEasy directly)
+
+CUSTOMER PROTECTIONS
+
+  Seller Non-Dispatch:
+    If seller does not dispatch within 3 business days:
+    - Order automatically cancelled
+    - Full refund issued immediately
+    - Rs. 50 store credit given to customer as compensation
+    - Seller performance metrics penalized
+
+  Wrong Item from Seller:
+    Return arranged at seller's expense
+    Replacement or full refund within 48 hours
+    Customer not responsible for return shipping cost
+    Seller bears cost of both return and re-delivery
+
+  Seller Account Issues:
+    If seller account is suspended mid-order:
+    - ShopEasy fulfils remaining orders from own inventory if possible
+    - Full refund issued if fulfilment not possible
+    - Customer notified within 24 hours
+
+  Price Gouging Protection:
+    Algorithmic price monitoring active 24/7
+    Sellers cannot increase prices by more than 20% in 24 hours
+    Exception: genuine cost increases with documentation
+    Price gouging reports: pricing@shopeasy.com
+
+  Counterfeit Protection:
+    All high-value electronics verified before dispatch (FBS)
+    Random audits on self-fulfilled electronics sellers
+    Customer authenticity reports trigger immediate investigation
+    Three verified counterfeit complaints: permanent seller ban
+
+SELLER RATINGS & REVIEWS
+  Customers rate sellers separately from products
+  Seller rating visible on all their product listings
+  Rating criteria:
+    - Delivery speed
+    - Packaging quality
+    - Product accuracy
+    - Communication
+  Ratings cannot be removed by sellers
+  ShopEasy may remove ratings that violate review policy
+  Sellers can respond to reviews publicly
+
+PROHIBITED SELLER ACTIVITIES
+  Sellers are strictly prohibited from:
+    - Listing counterfeit or replica products
+    - Listing products without proper licensing
+    - Inflating prices during high-demand periods beyond policy
+    - Incentivizing customers for positive reviews
+    - Creating fake reviews or ratings
+    - Communicating with customers outside ShopEasy platform
+    - Sharing customer personal data with third parties
+    - Listing hazardous items without proper certifications
+    - Duplicate listings for same product
+  Violation consequences:
+    - Minor violations: warning + performance penalty
+    - Major violations: immediate listing suspension
+    - Fraud or counterfeit: permanent ban + legal action
+
+PROHIBITED PRODUCT CATEGORIES
+  The following cannot be sold on ShopEasy:
+    - Counterfeit goods of any kind
+    - Weapons, firearms, ammunition
+    - Illegal drugs or controlled substances
+    - Prescription medicines without proper licensing
+    - Adult content or obscene material
+    - Products that violate intellectual property rights
+    - Recalled or unsafe products
+    - Stolen goods
+    - Wildlife products protected under law
+    - Tobacco products without proper licensing
+
+SELLER DISPUTE RESOLUTION
+  Sellers can dispute customer claims within 48 hours
+  Dispute process:
+    Step 1: Seller submits evidence via Seller Central
+    Step 2: ShopEasy reviews evidence within 72 hours
+    Step 3: Decision communicated to both parties
+    Step 4: Final decision by ShopEasy is binding
+  Escalation: sellergrievance@shopeasy.com
+  Sellers cannot contact customers directly regarding disputes
+
+CONTACT FOR SELLER ISSUES
+  Seller support:     sellersupport@shopeasy.com
+  New seller signup:  sell.shopeasy.com
+  Fraud reporting:    trust@shopeasy.com
+  Price complaints:   pricing@shopeasy.com
