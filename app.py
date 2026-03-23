@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, Response
 from flask_cors import CORS
 from chat_engine import ChatEngine
 import traceback
@@ -27,22 +27,10 @@ def chat():
         if not user_message:
             return jsonify({"error": "Message cannot be empty"}), 400
 
-        result = chat_engine.chat(user_message)
-
-        return jsonify({
-            "response": result["response"],
-            "metadata": {
-                "sources": [
-                    {
-                        "category": doc["category"],
-                        "similarity": doc["similarity"]
-                    }
-                    for doc in result["retrieved_docs"]
-                ],
-                "history_turns": result["history_length"],
-                "model": result["model"]
-            }
-        })
+        return Response(
+            chat_engine.stream_chat(user_message), 
+            mimetype="application/x-ndjson"
+        )
 
     except Exception as e:
         traceback.print_exc()
