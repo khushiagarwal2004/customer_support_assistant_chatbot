@@ -5,7 +5,7 @@ Last Updated: March 2026
 Purpose: This file is used by the customer support chatbot to answer product-
 related queries accurately. Each entry includes pricing, variants, materials,
 specs, discounts, and stock availability.
-Total Products: 80 (20 per category across 4 categories)
+Total Products: 102 (42 in Electronics, 20 in others across 4 categories)
 ================================================================================
 
 
@@ -604,7 +604,7 @@ Chatbot Notes:
 
 
 ================================================================================
-CATEGORY 2: ELECTRONICS & GADGETS (20 Products)
+CATEGORY 2: ELECTRONICS & GADGETS (42 Products)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -1173,6 +1173,545 @@ Chatbot Notes:
     for well-lit rooms.
   - AC powered only — not battery-operated; not truly portable without power.
   - Google Play not supported; apps via APK sideloading.
+
+
+================================================================================
+
+--------------------------------------------------------------------------------
+PRODUCT: Redmi Note 13
+SKU: EL-PHN-021
+--------------------------------------------------------------------------------
+Description:
+  Budget smartphone with a sharp 108MP AMOLED display. Excellent screen and
+  camera system for the price.
+
+Variants:
+  Arctic White, Midnight Black, Ocean Blue | 6GB+128GB, 8GB+256GB
+
+Technical Specifications:
+  - Display: AMOLED (108MP camera) | Processor: Snapdragon
+  - Battery: 5000mAh | Charging: 33W | Network: 4G
+  - Weight: ~190g
+
+Pricing:
+  - Regular: ₹14,999 | Sale: ₹10,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - IMPORTANT: Does NOT support 5G. Best for photography enthusiasts on a budget.
+
+--------------------------------------------------------------------------------
+PRODUCT: Realme Narzo 60
+SKU: EL-PHN-022
+--------------------------------------------------------------------------------
+Description:
+  Budget 5G smartphone offering great overall value, fast charging, and a
+  reliable camera system. Excellent for students.
+
+Variants:
+  Mars Orange, Cosmic Black | 8GB+128GB, 8GB+256GB
+
+Technical Specifications:
+  - Network: 5G | Charging: 33W SuperVOOC
+  - Weight: ~190g
+  
+Pricing:
+  - Regular: ₹15,999 | Sale: ₹11,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Highlight as the best value overall for 5G under Rs. 15,000.
+
+--------------------------------------------------------------------------------
+PRODUCT: IQOO Z9x
+SKU: EL-PHN-023
+--------------------------------------------------------------------------------
+Description:
+  Budget 5G smartphone boasting a massive 6000mAh battery and fast Snapdragon
+  6 Gen 1 chip. The absolute best in segment for gaming and battery life.
+
+Variants:
+  Tornado Green, Storm Grey | 6GB+128GB, 8GB+128GB
+
+Technical Specifications:
+  - Processor: Snapdragon 6 Gen 1 | Battery: 6000mAh (Largest in class)
+  - Charging: 44W Fast Charging | Network: 5G | Weight: ~199g
+
+Pricing:
+  - Regular: ₹16,999 | Sale: ₹12,999
+
+Stock Availability: Low Stock (Storm Grey), In Stock (Tornado Green)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Perfect for heavy users and mobile gamers on a budget.
+
+--------------------------------------------------------------------------------
+PRODUCT: Motorola Moto G64
+SKU: EL-PHN-024
+--------------------------------------------------------------------------------
+Description:
+  Budget 5G smartphone featuring a near-stock Android software experience with
+  a 3-year update guarantee. Perfect for clean Android fans.
+
+Variants:
+  Mint Green, Pearl Blue, Ice Lilac | 8GB+128GB, 12GB+256GB
+
+Technical Specifications:
+  - OS: Near-stock Android | Updates: 3 years guaranteed
+  - Network: 5G | Battery: 6000mAh | Weight: ~192g
+
+Pricing:
+  - Regular: ₹16,999 | Sale: ₹12,499
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Highlight the clean, ad-free UI and update guarantee.
+
+--------------------------------------------------------------------------------
+PRODUCT: Samsung Galaxy A55
+SKU: EL-PHN-025
+--------------------------------------------------------------------------------
+Description:
+  Mid-range 5G smartphone with IP67 water resistance, a versatile triple
+  camera system with OIS, and exceptional 4-year OS update support.
+
+Variants:
+  Awesome Lilac, Awesome Iceblue, Awesome Navy | 8GB+128GB, 12GB+256GB
+
+Technical Specifications:
+  - Camera: Triple setup (50MP+OIS, Ultrawide, Macro)
+  - Durability: IP67 water & dust resistance
+  - Updates: 4 years OS updates
+
+Pricing:
+  - Regular: ₹39,999 | Sale: ₹35,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Pitch this to users wanting water resistance (only IP67 phone in segment).
+
+--------------------------------------------------------------------------------
+PRODUCT: OnePlus Nord 4
+SKU: EL-PHN-026
+--------------------------------------------------------------------------------
+Description:
+  High-performance mid-range 5G phone featuring ultra-fast 100W charging,
+  a large 5500mAh battery, and a powerful Snapdragon 7+ Gen 3 chip.
+
+Variants:
+  Mercurial Silver, Obsidian Midnight, Oasis Green | 8GB+256GB, 12GB+256GB
+
+Technical Specifications:
+  - Processor: Snapdragon 7+ Gen 3 | Battery: 5500mAh
+  - Charging: 100W (0-100% in 28 mins) | Network: 5G
+
+Pricing:
+  - Regular: ₹32,999 | Sale: ₹29,999
+
+Stock Availability: Low Stock (Mercurial Silver), In Stock (Others)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Best all-rounder in the mid-range segment for performance and charging speed.
+
+--------------------------------------------------------------------------------
+PRODUCT: Nothing Phone 2a
+SKU: EL-PHN-027
+--------------------------------------------------------------------------------
+Description:
+  Mid-range 5G smartphone with a unique transparent design featuring the
+  customizable Glyph Interface LED system and dual 50MP cameras.
+
+Variants:
+  Black, White, Milk | 8GB+128GB, 12GB+256GB
+
+Technical Specifications:
+  - Design: Glyph Interface LEDs | Cameras: Dual 50MP (Main + Ultrawide)
+  - Network: 5G
+
+Pricing:
+  - Regular: ₹25,999 | Sale: ₹23,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Offer this to users looking for exceptional value and a unique design.
+
+--------------------------------------------------------------------------------
+PRODUCT: Poco X6 Pro
+SKU: EL-PHN-028
+--------------------------------------------------------------------------------
+Description:
+  A gaming-focused mid-range 5G smartphone with a buttery-smooth 144Hz
+  AMOLED display and the flagship-level Dimensity 8300 Ultra chip.
+
+Variants:
+  Racing Yellow (Vegan Leather), Black, Grey | 8GB+256GB, 12GB+512GB
+
+Technical Specifications:
+  - Display: 144Hz AMOLED | Processor: MediaTek Dimensity 8300 Ultra
+  - Network: 5G
+
+Pricing:
+  - Regular: ₹28,999 | Sale: ₹26,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Best recommendation for mobile gamers in the mid-range segment.
+
+--------------------------------------------------------------------------------
+PRODUCT: Apple iPhone 16
+SKU: EL-PHN-029
+--------------------------------------------------------------------------------
+Description:
+  Premium flagship smartphone featuring the blazing-fast A18 chip, robust
+  Apple Intelligence AI, ProRes video recording, and the new Camera Control button.
+
+Variants:
+  Ultramarine, Teal, Pink, White, Black | 128GB, 256GB, 512GB
+
+Technical Specifications:
+  - Processor: A18 chip | Video: ProRes & Cinematic mode
+  - Features: Camera Control Button, Action Button, Apple Intelligence
+  - Updates: 7 years of OS support
+
+Pricing:
+  - Regular: ₹79,900 | Sale: No Discount
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty (AppleCare+ optional at checkout)
+
+Chatbot Notes:
+  - Highly recommended for users already in the Apple ecosystem (Mac, iPad).
+  - Best smartphone globally for video recording.
+
+--------------------------------------------------------------------------------
+PRODUCT: Samsung Galaxy S24
+SKU: EL-PHN-030
+--------------------------------------------------------------------------------
+Description:
+  Compact premium Android flagship with a 2600-nit incredibly bright and accurate
+  display, Galaxy AI features, DeX desktop mode, and Knox security.
+
+Variants:
+  Onyx Black, Marble Grey, Cobalt Violet, Amber Yellow | 8GB+256GB, 8GB+512GB
+
+Technical Specifications:
+  - Display: 2600 nits peak brightness | Features: Galaxy AI, DeX mode, Knox
+  - Updates: 7 years of OS support
+
+Pricing:
+  - Regular: ₹79,999 | Sale: ₹74,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Best Android flagship experience with unmatched business productivity features.
+
+--------------------------------------------------------------------------------
+PRODUCT: Google Pixel 9
+SKU: EL-PHN-031
+--------------------------------------------------------------------------------
+Description:
+  Premium flagship Android smartphone powered by Tensor G4, offering the best
+  computational photography and AI editing features in the industry.
+
+Variants:
+  Obsidian, Porcelain, Wintergreen, Peony | 12GB+256GB
+
+Technical Specifications:
+  - Processor: Google Tensor G4 | Battery: 4700mAh
+  - Cameras: Industry-leading AI computational photography
+  - Updates: 7 years of OS support
+
+Pricing:
+  - Regular: ₹79,999 | Sale: ₹76,999
+
+Stock Availability: Low Stock (Wintergreen, Peony), In Stock (Others)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Pitch this strongly to photography enthusiasts who want the best AI photo tools.
+
+--------------------------------------------------------------------------------
+PRODUCT: Lenovo IdeaPad Slim 3
+SKU: EL-LAP-032
+--------------------------------------------------------------------------------
+Description:
+  Affordable 15.6-inch everyday student laptop with a large screen, perfect
+  for home use, assignments, and media consumption.
+
+Variants:
+  Arctic Grey, Abyss Blue | Intel Core i3 / 8GB RAM / 512GB SSD
+
+Technical Specifications:
+  - Display: 15.6 inch FHD | Processor: Intel Core i3
+  - Battery: Up to 7 hours | Weight: 1.62kg
+
+Pricing:
+  - Regular: ₹45,990 | Sale: ₹36,990
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty (Extended available at checkout)
+
+Chatbot Notes:
+  - Good for customers asking for a large screen on a budget.
+
+--------------------------------------------------------------------------------
+PRODUCT: HP 14s
+SKU: EL-LAP-033
+--------------------------------------------------------------------------------
+Description:
+  Highly portable 14-inch student laptop with excellent battery life and peppy
+  performance, ideal for carrying to classes and coffee shops.
+
+Variants:
+  Natural Silver | AMD Ryzen 5 5500U / 8GB RAM / 512GB SSD
+
+Technical Specifications:
+  - Display: 14 inch FHD | Processor: AMD Ryzen 5 5500U
+  - Battery: Up to 9.5 hours | Weight: 1.46kg
+
+Pricing:
+  - Regular: ₹48,990 | Sale: ₹38,990
+
+Stock Availability: In Stock
+Warranty: 1 year manufacturer warranty (Extended available at checkout)
+
+Chatbot Notes:
+  - Recommend as the best overall student laptop due to battery and portability.
+
+--------------------------------------------------------------------------------
+PRODUCT: MacBook Air M3
+SKU: EL-LAP-034
+--------------------------------------------------------------------------------
+Description:
+  Ultra-thin premium laptop powered by the highly efficient M3 chip. Offers
+  phenomenal 18-hour battery life and an incredibly colour-accurate display.
+
+Variants:
+  Midnight, Starlight, Space Grey, Silver | 8GB/256GB, 16GB/512GB
+
+Technical Specifications:
+  - Processor: Apple M3 chip | Display: Liquid Retina (best color accuracy)
+  - Battery: Up to 18 hours | Weight: 1.24kg
+
+Pricing:
+  - Regular: ₹1,14,900 | Sale: ₹1,04,900
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year Apple standard warranty (AppleCare+ optional)
+
+Chatbot Notes:
+  - Absolute best choice for creative work, Final Cut Pro, and portability.
+
+--------------------------------------------------------------------------------
+PRODUCT: ASUS ROG Zephyrus G14
+SKU: EL-LAP-035
+--------------------------------------------------------------------------------
+Description:
+  Compact 14-inch gaming powerhouse featuring an RTX 4060 GPU to handle all
+  modern games with ease, wrapped in a premium chassis.
+
+Variants:
+  Eclipse Grey, Moonlight White | Ryzen 9 / 16GB RAM / 1TB SSD / RTX 4060
+
+Technical Specifications:
+  - Processor: AMD Ryzen 9 | GPU: NVIDIA RTX 4060
+  - Battery: Up to 10 hours | Weight: 1.65kg
+
+Pricing:
+  - Regular: ₹1,34,990 | Sale: ₹1,09,990
+
+Stock Availability: Low Stock (Moonlight White), In Stock (Eclipse Grey)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Excellent value for gaming at this price segment with RTX 4060.
+
+--------------------------------------------------------------------------------
+PRODUCT: boAt Airdopes 141
+SKU: EL-TWS-036
+--------------------------------------------------------------------------------
+Description:
+  Budget true wireless earbuds offering decent sound quality and very long battery
+  life, making them the best value choice under Rs. 2,000.
+
+Variants:
+  Active Black, Cyan Cider, White Purity
+
+Technical Specifications:
+  - Battery: Up to 42 hours (with case)
+  - Features: ENx technology for calls, low latency mode
+
+Pricing:
+  - Regular: ₹2,990 | Sale: ₹1,299
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Unbeatable value for casual listening and calls.
+
+--------------------------------------------------------------------------------
+PRODUCT: Nothing Ear 2
+SKU: EL-TWS-037
+--------------------------------------------------------------------------------
+Description:
+  Stylish transparent wireless earbuds with Hi-Res audio certification, active
+  noise cancellation, and pinch controls.
+
+Variants:
+  White, Black
+
+Technical Specifications:
+  - Audio: Hi-Res certified (LHDC 5.0) | ANC: Yes
+  - Design: Transparent casing with LED accents
+
+Pricing:
+  - Regular: ₹10,999 | Sale: ₹8,999
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - Best premium aesthetic and sound under Rs. 10,000.
+
+--------------------------------------------------------------------------------
+PRODUCT: Sony WF-1000XM5
+SKU: EL-TWS-038
+--------------------------------------------------------------------------------
+Description:
+  Industry-leading premium wireless earbuds featuring the best noise cancellation
+  on the market, LDAC Hi-Res audio, and up to 24 hours of battery life.
+
+Variants:
+  Black, Silver
+
+Technical Specifications:
+  - Audio: LDAC Hi-Res | ANC: Industry-leading dual-processor noise cancellation
+  - Battery: 24 hours (with case)
+
+Pricing:
+  - Regular: ₹29,990 | Sale: ₹24,990
+
+Stock Availability: In Stock (all variants)
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - The absolute best overall TWS choice if budget permits.
+
+--------------------------------------------------------------------------------
+PRODUCT: Apple AirPods Pro 2
+SKU: EL-TWS-039
+--------------------------------------------------------------------------------
+Description:
+  Premium true wireless earbuds optimized for the Apple ecosystem, featuring
+  excellent ANC, Adaptive Transparency, and personalized spatial audio.
+
+Variants:
+  White
+
+Technical Specifications:
+  - Features: Adaptive Transparency, Spatial Audio, MagSafe USB-C Case
+  - Ecosystem: Perfectly integrated with iOS and macOS
+
+Pricing:
+  - Regular: ₹24,900 | Sale: ₹22,900
+
+Stock Availability: In Stock
+Warranty: 1 year manufacturer warranty
+
+Chatbot Notes:
+  - The go-to recommendation for any iPhone user.
+
+--------------------------------------------------------------------------------
+PRODUCT: LG C3 OLED TV
+SKU: EL-TV-040
+--------------------------------------------------------------------------------
+Description:
+  Premium 55-inch OLED TV offering perfect blacks, infinite contrast ratio,
+  and exceptional gaming features including 4K 120Hz and G-Sync compatibility.
+
+Variants:
+  55-inch, 65-inch
+
+Technical Specifications:
+  - Panel: OLED evo | Refresh Rate: 120Hz
+  - Features: G-Sync, FreeSync, Dolby Vision IQ, Dolby Atmos
+
+Pricing:
+  - 55-inch: ₹1,49,990 | Sale: ₹1,19,990
+  - 65-inch: ₹2,19,990 | Sale: ₹1,69,990
+
+Stock Availability: Low Stock
+Warranty: 1 year standard + 5-year extended panel warranty offers
+
+Chatbot Notes:
+  - Best picture quality in dark rooms and unmatched for console gaming.
+
+--------------------------------------------------------------------------------
+PRODUCT: Samsung QN90C Neo QLED TV
+SKU: EL-TV-041
+--------------------------------------------------------------------------------
+Description:
+  High-end 55-inch mini-LED QLED TV boasting 2000 nits of peak brightness,
+  making it the absolute best choice for bright, sun-lit living rooms.
+
+Variants:
+  55-inch, 65-inch
+
+Technical Specifications:
+  - Panel: Neo QLED (Mini LED) | Peak Brightness: 2000 nits
+  - Features: Anti-glare screen, Object Tracking Sound+
+
+Pricing:
+  - 55-inch: ₹1,29,990 | Sale: ₹89,990
+  - 65-inch: ₹1,79,990 | Sale: ₹1,24,990
+
+Stock Availability: In Stock
+Warranty: 1 year standard manufacturer warranty
+
+Chatbot Notes:
+  - Recommend instantly if customer mentions placing TV in a bright room.
+
+--------------------------------------------------------------------------------
+PRODUCT: Sony Bravia XR A80L TV
+SKU: EL-TV-042
+--------------------------------------------------------------------------------
+Description:
+  Premium 55-inch OLED TV equipped with Sony's Cognitive Processor XR and
+  unique Acoustic Surface Audio+ where the screen itself is the speaker.
+
+Variants:
+  55-inch, 65-inch
+
+Technical Specifications:
+  - Panel: OLED | Processor: Cognitive Processor XR
+  - Audio: Acoustic Surface Audio+ (screen vibrates to produce sound)
+
+Pricing:
+  - 55-inch: ₹1,64,990 | Sale: ₹1,34,990
+  - 65-inch: ₹2,24,990 | Sale: ₹1,79,990
+
+Stock Availability: In Stock
+Warranty: 1 year standard manufacturer warranty
+
+Chatbot Notes:
+  - Best overall audio experience natively out of the box without a soundbar.
 
 
 ================================================================================

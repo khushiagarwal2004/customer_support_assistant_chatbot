@@ -53,8 +53,6 @@ questions. How can I help you shop today? 😊"
 - ALWAYS end your response with a helpful follow-up question.
 """
 
-
-
 class ChatEngine:
     """
     Core chatbot engine combining:
