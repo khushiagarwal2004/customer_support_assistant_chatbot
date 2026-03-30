@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, Response
+from flask import Flask, request, jsonify, render_template, Response, stream_with_context
 from flask_cors import CORS
 from chat_engine import ChatEngine
 import traceback
@@ -9,7 +9,6 @@ CORS(app)
 # Initialize the chat engine (loads RAG + model on startup)
 print("🚀 Starting ShopMart AI Customer Assistant...")
 chat_engine = ChatEngine(model="gemma3:4b")
-
 
 @app.route("/")
 def index():
@@ -28,8 +27,13 @@ def chat():
             return jsonify({"error": "Message cannot be empty"}), 400
 
         return Response(
-            chat_engine.stream_chat(user_message), 
-            mimetype="application/x-ndjson"
+            stream_with_context(chat_engine.stream_chat(user_message)),
+            mimetype="application/x-ndjson",
+            headers={
+                "Cache-Control": "no-cache",
+                "X-Accel-Buffering": "no",
+                "Connection": "keep-alive",
+            },
         )
 
     except Exception as e:
