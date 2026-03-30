@@ -1,6 +1,8 @@
+import re
 import chromadb
 from sentence_transformers import SentenceTransformer
 from pathlib import Path
+
 
 
 class RAGEngine:
@@ -17,8 +19,8 @@ class RAGEngine:
         docs_folder: str = "./knowledge_base",
         collection_name: str = "ecommerce_kb",
         persist_dir: str = "./chroma_db",
-        chunk_size: int = 500,
-        chunk_overlap: int = 50,
+        chunk_size: int = 800,
+        chunk_overlap: int = 100,
     ):
         print("🔧 Initializing RAG Engine...")
 
@@ -28,7 +30,7 @@ class RAGEngine:
 
         # Load embedding model locally
         print("📦 Loading embedding model (all-MiniLM-L6-v2)...")
-        self.embedder = SentenceTransformer("C:/models/all-MiniLM-L6-v2")
+        self.embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
         # Initialize ChromaDB (persistent vector store)
         self.client = chromadb.PersistentClient(path=persist_dir)
@@ -73,8 +75,125 @@ class RAGEngine:
 
     def _chunk_text(self, text: str) -> list[str]:
         """
-        Split text into overlapping chunks for better retrieval.
-        Tries to split at newlines to avoid cutting mid-sentence.
+        Structure-aware semantic chunking that keeps logical sections together.
+
+        Instead of blindly cutting at every N characters (which splits products
+        and policy sections in half), this detects the document's natural
+        structure and splits along those boundaries.
+
+        Three strategies tried in order:
+          1. Separator lines (--- / ===) → for product catalogs
+          2. ALL-CAPS section headers   → for policy & FAQ documents
+          3. Fixed-size with overlap    → fallback for unstructured text
+        """
+        # Strategy 1: Documents with visual separator lines (product catalog)
+        separator_pattern = re.compile(r'^[-=]{10,}$', re.MULTILINE)
+        separator_count = len(separator_pattern.findall(text))
+
+        if separator_count >= 3:
+            chunks = self._split_by_separators(text, separator_pattern)
+            if chunks:
+                return chunks
+
+        # Strategy 2: Documents with ALL-CAPS section headers (policies)
+        chunks = self._split_by_section_headers(text)
+        if chunks:
+            return chunks
+
+        # Strategy 3: Fallback for unstructured text
+        return self._fixed_size_split(text)
+
+    # ── Strategy 1: Separator-Based Splitting ────────────────────────────────
+
+    def _split_by_separators(self, text: str, pattern) -> list[str]:
+        """
+        For documents like the product catalog that use -------- or ========
+        lines as visual dividers.
+
+        How it works:
+        1. Split the text at every separator line
+        2. Small fragments (like "PRODUCT: Name / SKU: Code") are recognized
+           as headers and merged into the NEXT content block
+        3. Result: each chunk = one complete product entry with all its details
+
+        Example — before (old fixed-size):
+          Chunk 1: "PRODUCT: iPhone 16... Description: Premium..."
+          Chunk 2: "Pricing: ₹79,900... Stock: In Stock..."   ← price separated!
+
+        Example — after (this method):
+          Chunk 1: "PRODUCT: iPhone 16... Description... Pricing: ₹79,900
+                    Stock: In Stock... Chatbot Notes: ..."     ← everything together!
+        """
+        blocks = pattern.split(text)
+        blocks = [b.strip() for b in blocks if b.strip()]
+
+        chunks = []
+        pending_header = None
+
+        for block in blocks:
+            # Blocks under 120 chars are typically headers (product name + SKU,
+            # category titles, etc.) — hold them to merge with the next block
+            if len(block) < 120:
+                pending_header = (pending_header + '\n' + block) if pending_header else block
+            else:
+                # This is a substantial content block — attach any pending header
+                chunk = (pending_header + '\n\n' + block) if pending_header else block
+                pending_header = None
+
+                if len(chunk) > 2000:
+                    # Safety: if somehow a section is huge, break it down
+                    chunks.extend(self._fixed_size_split(chunk))
+                elif len(chunk) > 50:
+                    chunks.append(chunk)
+
+        # Don't lose trailing headers (e.g. end-of-file notes)
+        if pending_header and len(pending_header) > 30:
+            chunks.append(pending_header)
+
+        return chunks
+
+    # ── Strategy 2: Section-Header Splitting ─────────────────────────────────
+
+    def _split_by_section_headers(self, text: str) -> list[str]:
+        """
+        For policy/FAQ documents that use ALL-CAPS lines as section headers.
+
+        Detects lines like:
+          STANDARD RETURN WINDOW
+          REFUND TIMELINES
+          EXCHANGE POLICY
+
+        Each header + everything below it (until the next header) = one chunk.
+        """
+        # Match lines that are entirely uppercase letters + spaces/punctuation,
+        # at least 6 characters long — these are section headers
+        header_pattern = re.compile(r'^([A-Z][A-Z \-&/—:()]{5,})$', re.MULTILINE)
+        headers = list(header_pattern.finditer(text))
+
+        if len(headers) < 2:
+            return []
+
+        chunks = []
+        for i, match in enumerate(headers):
+            start = match.start()
+            end = headers[i + 1].start() if i + 1 < len(headers) else len(text)
+            chunk = text[start:end].strip()
+
+            if len(chunk) < 30:
+                continue
+            if len(chunk) > 2000:
+                chunks.extend(self._fixed_size_split(chunk))
+            else:
+                chunks.append(chunk)
+
+        return chunks
+
+    # ── Strategy 3: Fixed-Size Fallback ──────────────────────────────────────
+
+    def _fixed_size_split(self, text: str) -> list[str]:
+        """
+        Original fixed-size chunking with overlap — used as a fallback when
+        no structural patterns are detected, or to break down oversized sections.
         """
         chunks = []
         start = 0
@@ -83,7 +202,6 @@ class RAGEngine:
         while start < text_len:
             end = start + self.chunk_size
 
-            # If not at the end, try to break at a newline for clean splits
             if end < text_len:
                 newline_pos = text.rfind("\n", start, end)
                 if newline_pos > start:
@@ -93,7 +211,6 @@ class RAGEngine:
             if chunk:
                 chunks.append(chunk)
 
-            # Move forward with overlap
             start = end - self.chunk_overlap
 
         return chunks
