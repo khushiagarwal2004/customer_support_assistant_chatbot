@@ -1,4 +1,5 @@
 import json
+import re
 from ollama import Client
 from rag_engine import RAGEngine
 from datetime import datetime
@@ -18,6 +19,8 @@ Rely strictly on this context to answer.
   every relevant product you find. NEVER say a category is out of stock unless zero
   matching products appear in the context. Categories include but are not limited to:
   beauty, skincare, wellness, home, lifestyle, fashion, electronics, accessories.
+  When listing many products (e.g., "all phones"), list each distinct model name
+  exactly once — never repeat the same product on multiple bullet lines.
  
 - SPECIFIC ITEM QUERIES: If the user asks for a specific named product (e.g., "iPhone 15")
   and it is NOT found in the context, reply:
@@ -68,6 +71,8 @@ reply above instead.
 - ALWAYS end your response with a helpful follow-up question.
 """
 
+
+
 class ChatEngine:
     """
     Core chatbot engine combining:
@@ -110,6 +115,41 @@ Use the above context to give accurate answers. If context is insufficient, ackn
 
         return messages
 
+    def _determine_retrieval_k(self, user_message: str) -> int:
+        """
+        Choose retrieval depth based on query intent.
+        - Broad listing queries need many chunks (e.g., "list all mobiles").
+        - Specific product / SKU queries need moderate depth to avoid false "not found".
+        - Default remains small for speed.
+        """
+        text = (user_message or "").lower().strip()
+        if not text:
+            return 3
+
+        list_words = ("list", "show", "all", "every", "available")
+        catalog_categories = (
+            "mobile", "mobiles", "phone", "phones", "smartphone", "smartphones",
+            "laptop", "laptops", "tv", "earbuds", "headphones", "electronics",
+            "beauty", "fashion", "home", "wellness", "products",
+        )
+
+        # Broad inventory requests need wider context coverage.
+        if any(w in text for w in list_words) and any(c in text for c in catalog_categories):
+            # "List all X" needs enough chunks to cover a category (phones alone can be 10–20+ SKUs).
+            if any(w in text for w in ("mobile", "mobiles", "phone", "phones", "smartphone", "smartphones")):
+                return 60
+            return 30
+
+        # Exact identifier / specific product lookup.
+        if re.search(r"\b[a-z]{2,4}-[a-z]{2,4}-\d{2,6}\b", text) or re.search(r"\biphone\s*\d+\b", text):
+            return 10
+
+        # Named product hints (brand/device names) benefit from slightly deeper retrieval.
+        if any(b in text for b in ("iphone", "samsung", "pixel", "oneplus", "realme", "redmi", "moto", "macbook", "airpods")):
+            return 8
+
+        return 3
+
     def chat(self, user_message: str) -> dict:
         """
         Main chat method:
@@ -121,7 +161,8 @@ Use the above context to give accurate answers. If context is insufficient, ackn
         """
 
         # Step 1: Semantic retrieval
-        retrieved_docs = self.rag.retrieve(user_message, top_k=3)
+        retrieval_k = self._determine_retrieval_k(user_message)
+        retrieved_docs = self.rag.retrieve(user_message, top_k=retrieval_k)
         context = self.rag.format_context(retrieved_docs)
 
         # Step 2: Build messages
@@ -164,7 +205,8 @@ Use the above context to give accurate answers. If context is insufficient, ackn
         6. Yield done signal
         """
         # Step 1: Semantic retrieval
-        retrieved_docs = self.rag.retrieve(user_message, top_k=3)
+        retrieval_k = self._determine_retrieval_k(user_message)
+        retrieved_docs = self.rag.retrieve(user_message, top_k=retrieval_k)
         context = self.rag.format_context(retrieved_docs)
 
         # Step 2: Build messages
@@ -219,4 +261,7 @@ Use the above context to give accurate answers. If context is insufficient, ackn
     def get_history(self) -> list[dict]:
         """Return current conversation history."""
         return self.conversation_history
-    
+
+
+engine=ChatEngine()
+print(engine.max_history)

@@ -10,3 +10,6 @@ if __name__ == "__main__":
     
     print("✅ Ingestion fully completed.")
     print("You can now start the application with 'python app.py'")
+
+
+    
