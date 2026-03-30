@@ -638,7 +638,9 @@
             } else if (data.type === 'error') {
               appendTextToBubble(msgId, '\n[Error: ' + data.content + ']');
             } else if (data.type === 'done') {
-              // stream complete
+              // Stream complete: Formally format the markdown exactly once to prevent freezing
+              const bubble = document.getElementById('bubble_' + msgId);
+              if (bubble) bubble.innerHTML = formatText(currentMsgContent);
             }
           } catch (e) {
             console.error("Error parsing JSON chunk", e, line);
@@ -673,16 +675,25 @@
     return id;
   }
 
+  let scrollRAF = null;
+
   function appendTextToBubble(id, text) {
     const bubble = document.getElementById('bubble_' + id);
     if (!bubble) return;
     currentMsgContent += text;
-    // Format text nicely (markdown) 
-    bubble.innerHTML = formatText(currentMsgContent);
-    const container = document.getElementById('messages');
-    // auto-scroll
-    if (container.scrollHeight - container.scrollTop - container.clientHeight < 150) {
-      container.scrollTop = container.scrollHeight;
+    // O(1) append: add only the new token as a text node instead of
+    // re-rendering the entire message (which would be O(n) per token).
+    bubble.appendChild(document.createTextNode(text));
+
+    // Throttle scroll to once per animation frame to avoid layout thrashing
+    if (!scrollRAF) {
+      scrollRAF = requestAnimationFrame(() => {
+        const container = document.getElementById('messages');
+        if (container.scrollHeight - container.scrollTop - container.clientHeight < 150) {
+          container.scrollTop = container.scrollHeight;
+        }
+        scrollRAF = null;
+      });
     }
   }
 
