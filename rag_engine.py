@@ -1,7 +1,9 @@
+import hashlib
 import re
 import chromadb
-from sentence_transformers import SentenceTransformer
 from pathlib import Path
+from rank_bm25 import BM25Okapi
+from sentence_transformers import SentenceTransformer
 
 
 
@@ -11,7 +13,7 @@ class RAGEngine:
     - Loads knowledge base from .txt files in a folder
     - Uses sentence-transformers for embeddings (runs locally, no API cost)
     - ChromaDB as vector store (persistent)
-    - Semantic search to find relevant context before generating response
+    - Hybrid retrieval: dense (cosine) + sparse (BM25), merged with RRF
     """
 
     def __init__(
@@ -21,12 +23,18 @@ class RAGEngine:
         persist_dir: str = "./chroma_db",
         chunk_size: int = 800,
         chunk_overlap: int = 100,
+        rrf_k: int = 60,
     ):
         print("🔧 Initializing RAG Engine...")
 
         self.docs_folder = Path(docs_folder)
         self.chunk_size = chunk_size        # characters per chunk
         self.chunk_overlap = chunk_overlap  # overlap between chunks
+        self.rrf_k = rrf_k                  # Reciprocal Rank Fusion constant
+
+        # BM25 keyword index (built from Chroma docs, parallel to self._bm25_docs)
+        self.bm25 = None
+        self._bm25_docs: list[dict] = []
 
         # Load embedding model locally
         print("📦 Loading embedding model (all-MiniLM-L6-v2)...")
@@ -38,6 +46,7 @@ class RAGEngine:
 
         # Build or load the knowledge base
         self._init_collection()
+        self._build_bm25_index()
         print("✅ RAG Engine ready!")
 
     # ── File Loading ────────────────────────────────────────────────────────
@@ -258,6 +267,7 @@ class RAGEngine:
             )
 
         print(f"✅ Ingested {len(docs)} chunks into vector store")
+        self._build_bm25_index()
 
     def rebuild(self):
         """
@@ -273,35 +283,323 @@ class RAGEngine:
         self._ingest_knowledge_base()
         print("✅ Rebuild complete!")
 
+    # ── BM25 + hybrid helpers ───────────────────────────────────────────────
+
+    @staticmethod
+    def _tokenize(text: str) -> list[str]:
+        """Lowercase alphanumeric tokens for BM25 (SKUs like EL-PHN-029 → el, phn, 029)."""
+        return re.findall(r"[a-z0-9]+", text.lower())
+
+    def _build_bm25_index(self):
+        """Rebuild BM25 from all documents currently in Chroma (IDs must match)."""
+        self.bm25 = None
+        self._bm25_docs = []
+
+        n = self.collection.count()
+        if n == 0:
+            print("🔍 BM25 keyword index: empty (run ingest.py)")
+            return
+
+        data = self.collection.get(include=["documents", "metadatas"])
+        ids = data["ids"]
+        docs = data["documents"]
+        metas = data["metadatas"]
+
+        tokenized: list[list[str]] = []
+        self._bm25_docs = []
+        for i, doc in enumerate(docs):
+            toks = self._tokenize(doc)
+            if not toks:
+                toks = ["_empty_"]
+            tokenized.append(toks)
+            self._bm25_docs.append({
+                "id": ids[i],
+                "content": doc,
+                "category": metas[i]["category"],
+            })
+
+        self.bm25 = BM25Okapi(tokenized)
+        print(f"🔍 BM25 keyword index ready ({len(self._bm25_docs)} documents)")
+
+    def _chunk_id_for_content(self, content: str) -> str:
+        """Map exact chunk text to Chroma id (for RRF); fallback if not found."""
+        for d in self._bm25_docs:
+            if d["content"] == content:
+                return d["id"]
+        digest = hashlib.sha256(content.encode("utf-8")).hexdigest()[:24]
+        return f"_hash_{digest}"
+
+    def _semantic_search(self, query: str, n_results: int) -> list[dict]:
+        """Dense retrieval: cosine similarity in ChromaDB."""
+        n = self.collection.count()
+        if n == 0:
+            return []
+        n_results = min(max(1, n_results), n)
+
+        query_embedding = self.embedder.encode(query).tolist()
+        results = self.collection.query(
+            query_embeddings=[query_embedding],
+            n_results=n_results,
+            include=["documents", "metadatas", "distances"],
+        )
+
+        out = []
+        docs_row = results["documents"][0]
+        for i in range(len(docs_row)):
+            content = docs_row[i]
+            similarity = 1 - results["distances"][0][i]
+            out.append({
+                "id": self._chunk_id_for_content(content),
+                "content": content,
+                "category": results["metadatas"][0][i]["category"],
+                "similarity": round(similarity, 4),
+            })
+        return out
+
+    def _keyword_search(self, query: str, n_results: int) -> list[dict]:
+        """Sparse retrieval: BM25 over the same chunks as the vector store."""
+        if self.bm25 is None or not self._bm25_docs:
+            return []
+
+        tokens = self._tokenize(query)
+        if not tokens:
+            stripped = query.strip().lower()
+            tokens = [stripped] if stripped else []
+
+        if not tokens:
+            return []
+
+        scores = list(self.bm25.get_scores(tokens))
+        # Strong boost when the normalized query appears verbatim (SKUs, exact product lines)
+        q_norm = re.sub(r"\s+", " ", query.strip().lower())
+        if q_norm:
+            boost = 25.0
+            for i in range(len(scores)):
+                if q_norm in self._bm25_docs[i]["content"].lower():
+                    scores[i] += boost
+
+        ranked = sorted(enumerate(scores), key=lambda x: x[1], reverse=True)
+        top = ranked[: min(n_results, len(ranked))]
+
+        out = []
+        for idx, sc in top:
+            d = self._bm25_docs[idx]
+            out.append({
+                "id": d["id"],
+                "content": d["content"],
+                "category": d["category"],
+                "similarity": round(float(sc), 4),
+            })
+        return out
+
+    def _rrf_merge(
+        self,
+        semantic: list[dict],
+        keyword: list[dict],
+        top_k: int,
+        query: str = "",
+    ) -> list[dict]:
+        """
+        Reciprocal Rank Fusion: combine two ranked lists without score calibration.
+
+        score(d) = sum 1 / (k + rank_i) for each list where d appears.
+        Optional: +1.0 when chunk text contains a SKU/code detected in the query.
+        """
+        k = self.rrf_k
+        merged: dict[str, dict] = {}
+
+        for rank, item in enumerate(semantic, start=1):
+            cid = item["id"]
+            merged.setdefault(cid, {"rrf": 0.0, "content": item["content"], "category": item["category"]})
+            merged[cid]["rrf"] += 1.0 / (k + rank)
+            merged[cid]["content"] = item["content"]
+            merged[cid]["category"] = item["category"]
+
+        for rank, item in enumerate(keyword, start=1):
+            cid = item["id"]
+            merged.setdefault(cid, {"rrf": 0.0, "content": item["content"], "category": item["category"]})
+            merged[cid]["rrf"] += 1.0 / (k + rank)
+            merged[cid]["content"] = item["content"]
+            merged[cid]["category"] = item["category"]
+
+        # Strong boost when query mentions a SKU / product code (dense search often ranks wrong phone #1)
+        for sku in re.findall(r"\b[A-Z]{2,3}-[A-Z]{2,3}-\d{2,6}\b", query, re.I):
+            sl = sku.lower()
+            for _cid, data in merged.items():
+                if sl in data["content"].lower():
+                    data["rrf"] += 1.0
+
+        ordered = sorted(merged.items(), key=lambda x: x[1]["rrf"], reverse=True)[:top_k]
+
+        peak = ordered[0][1]["rrf"] if ordered else 1.0
+        peak = peak if peak > 0 else 1.0
+        out = []
+        for _cid, data in ordered:
+            sim = min(1.0, data["rrf"] / peak)
+            out.append({
+                "content": data["content"],
+                "category": data["category"],
+                "similarity": round(sim, 4),
+            })
+        return out
+
     # ── Retrieval ───────────────────────────────────────────────────────────
 
     def retrieve(self, query: str, top_k: int = 3) -> list[dict]:
         """
-        Semantic search: find top-k most relevant chunks for a query.
+        Hybrid search: semantic (cosine) + keyword (BM25), merged with RRF.
 
-        Steps:
-        1. Embed the user query
-        2. Cosine similarity search in ChromaDB
-        3. Return top-k results with scores
+        - Semantic helps paraphrases and broad intent ("good phone for photos").
+        - Keyword helps exact names, SKUs, policy terms ("iPhone 16", "EL-PHN-029").
         """
-        query_embedding = self.embedder.encode(query).tolist()
+        q = (query or "").strip()
+        if not q:
+            return []
 
-        results = self.collection.query(
-            query_embeddings=[query_embedding],
-            n_results=top_k,
-            include=["documents", "metadatas", "distances"]
+        n = self.collection.count()
+        if n == 0:
+            return []
+
+        # Broad "list all phones/mobiles" — hybrid top-K often misses many SKUs; pull catalog phone chunks directly.
+        if self._is_list_phones_inventory_query(q):
+            direct = self._retrieve_phone_catalog_chunks(limit=top_k)
+            if direct:
+                return direct
+
+        candidate_k = max(top_k * 3, 12)
+        candidate_k = min(candidate_k, n)
+
+        semantic = self._semantic_search(q, candidate_k)
+
+        if self.bm25 is None:
+            out = semantic[:top_k]
+            return self._finalize_for_phone_listing_query(q, out)
+
+        keyword = self._keyword_search(q, candidate_k)
+
+        if not keyword:
+            merged = semantic[:top_k]
+            return self._finalize_for_phone_listing_query(
+                q, self._post_filter_for_listing_query(q, merged, top_k)
+            )
+        if not semantic:
+            mx = max((item["similarity"] for item in keyword), default=0.0) or 1.0
+            merged = [
+                {
+                    "content": item["content"],
+                    "category": item["category"],
+                    "similarity": round(min(1.0, item["similarity"] / mx), 4),
+                }
+                for item in keyword[:top_k]
+            ]
+            return self._finalize_for_phone_listing_query(
+                q, self._post_filter_for_listing_query(q, merged, top_k)
+            )
+
+        merged = self._rrf_merge(semantic, keyword, top_k, query=q)
+        return self._finalize_for_phone_listing_query(
+            q, self._post_filter_for_listing_query(q, merged, top_k)
         )
 
-        retrieved = []
-        for i in range(len(results["documents"][0])):
-            similarity = 1 - results["distances"][0][i]   # cosine distance → similarity
-            retrieved.append({
-                "content":    results["documents"][0][i],
-                "category":   results["metadatas"][0][i]["category"],
-                "similarity": round(similarity, 4),
-            })
+    def _finalize_for_phone_listing_query(self, query: str, docs: list[dict]) -> list[dict]:
+        """One chunk per phone SKU when user asked to list phones (covers all retrieve paths)."""
+        if not docs:
+            return docs
+        if self._is_list_phones_inventory_query(query):
+            return self._dedupe_chunks_by_phone_sku(docs)
+        return docs
 
-        return retrieved
+    def _is_list_phones_inventory_query(self, query: str) -> bool:
+        t = query.lower()
+        list_words = ("list", "show", "all", "every", "available")
+        phone_words = ("mobile", "mobiles", "phone", "phones", "smartphone", "smartphones")
+        return any(w in t for w in list_words) and any(w in t for w in phone_words)
+
+    @staticmethod
+    def _dedupe_chunks_by_phone_sku(docs: list[dict]) -> list[dict]:
+        """
+        Keep at most one chunk per mobile phone SKU (EL-PHN-xxx).
+
+        Prevents duplicate lines in answers when the same SKU appears in multiple
+        chunks (re-ingest quirks) or when post-filter mixes overlapping sources.
+        Chunks without an EL-PHN- SKU line are kept as-is (e.g., comparison blurbs).
+        """
+        seen: set[str] = set()
+        out: list[dict] = []
+        for d in docs:
+            content = d.get("content") or ""
+            m = re.search(r"SKU:\s*(EL-PHN-\d+)", content, re.I)
+            if m:
+                sku = m.group(1).upper()
+                if sku in seen:
+                    continue
+                seen.add(sku)
+            out.append(d)
+        return out
+
+    def _retrieve_phone_catalog_chunks(self, limit: int) -> list[dict]:
+        """
+        Return product-catalog chunks that represent mobile phones (SKU prefix EL-PHN-).
+        Uses the same chunk list as BM25/Chroma so IDs stay consistent with ingestion.
+        """
+        if not self._bm25_docs or limit <= 0:
+            return []
+
+        phones: list[dict] = []
+        for d in self._bm25_docs:
+            if d.get("category") != "product-catalog":
+                continue
+            content = d.get("content") or ""
+            if "el-phn-" not in content.lower():
+                continue
+            phones.append(
+                {
+                    "content": content,
+                    "category": d["category"],
+                    "similarity": 0.99,
+                }
+            )
+
+        phones = self._dedupe_chunks_by_phone_sku(phones)
+
+        # Stable ordering helps the model iterate consistently (by SKU if present).
+        def _sku_key(text: str) -> str:
+            m = re.search(r"SKU:\s*(EL-PHN-\d+)", text, re.I)
+            return m.group(1).upper() if m else text[:40]
+
+        phones.sort(key=lambda x: _sku_key(x["content"]))
+        return phones[:limit]
+
+    def _post_filter_for_listing_query(self, query: str, docs: list[dict], top_k: int) -> list[dict]:
+        """
+        For broad listing queries (e.g., "list all mobiles"), prioritize
+        product catalog chunks and, for phone queries, prefer phone SKUs.
+        """
+        text = query.lower()
+        list_words = ("list", "show", "all", "every", "available")
+        is_listing = any(w in text for w in list_words)
+        if not is_listing or not docs:
+            return docs[:top_k]
+
+        # Keep product catalog chunks first for broad inventory requests.
+        catalog_first = sorted(
+            docs,
+            key=lambda d: (d.get("category") != "product-catalog", -d.get("similarity", 0.0)),
+        )
+
+        # If this is specifically about mobiles/phones, prefer phone product entries.
+        if any(w in text for w in ("mobile", "mobiles", "phone", "phones", "smartphone", "smartphones")):
+            phone_like = [
+                d for d in catalog_first
+                if "el-phn-" in d.get("content", "").lower()
+                or "smartphone" in d.get("content", "").lower()
+                or "phone" in d.get("content", "").lower()
+            ]
+            if phone_like:
+                phone_like = self._dedupe_chunks_by_phone_sku(phone_like)
+                return phone_like[:top_k]
+
+        return catalog_first[:top_k]
 
     def format_context(self, retrieved: list[dict]) -> str:
         """Format retrieved chunks into a context string for the LLM."""
