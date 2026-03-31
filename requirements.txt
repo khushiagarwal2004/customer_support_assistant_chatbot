@@ -3,10 +3,5 @@ flask-cors
 ollama
 chromadb
 sentence-transformers
-langchain
-langchain-community
-langchain-ollama
-langchain-chroma
 numpy
 rank-bm25
-httpx
